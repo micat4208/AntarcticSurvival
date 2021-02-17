@@ -1,6 +1,6 @@
 #pragma once
 
-#include "CoreMinimal.h"
+#include "AntarcticSurvival.h"
 #include "GameFramework/Character.h"
 #include "PlayerCharacter.generated.h"
 /// - UHT 에 의해 자동으로 생성되는 부가 파일
@@ -22,18 +22,17 @@ class ANTARCTICSURVIVAL_API APlayerCharacter final :
 	/// - 항상 클래스 첫 줄에 작성되어야 합니다.
 
 public:
-	// Sets default values for this character's properties
 	APlayerCharacter();
 
 protected:
-	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 
 public:	
-	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
-	// Called to bind functionality to input
+
+	// 프로젝트 세팅 -> 입력에 매핑한 키 입력 이벤트를 폰에 등록합니다.
+	/// - UInputComponent : 액터에 입력 이벤트를 등록하는 기능을 제공하는 컴포넌트입니다.
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
 };
