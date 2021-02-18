@@ -1,6 +1,7 @@
 #include "ModeGame.h"
 
 #include "Actor/PlayerCharacter/PlayerCharacter.h"
+#include "Actor/PlayerController/GamePlayerController.h"
 
 AModeGame::AModeGame()
 {
@@ -23,6 +24,7 @@ AModeGame::AModeGame()
 
 	*/
 	DefaultPawnClass = APlayerCharacter::StaticClass();
+	PlayerControllerClass = AGamePlayerController::StaticClass();
 
 	//PlayerControllerClass;
 
