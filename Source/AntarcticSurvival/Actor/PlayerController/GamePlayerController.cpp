@@ -1,4 +1,5 @@
 #include "GamePlayerController.h"
+#include "Actor/PlayerCharacter/PlayerCharacter.h"
 
 void AGamePlayerController::BeginPlay()
 {
@@ -10,8 +11,17 @@ void AGamePlayerController::OnPossess(APawn* aPawn)
 {
 	Super::OnPossess(aPawn);
 
+	PlayerCharacter = Cast<APlayerCharacter>(aPawn);
+
 	// 카메라 뷰를 설정합니다.
 	SetCameraView();
+}
+
+void AGamePlayerController::Tick(float DeltaTime)
+{
+	Super::Tick(DeltaTime);
+
+	//RotateController();
 }
 
 void AGamePlayerController::SetCameraView()
@@ -40,4 +50,11 @@ void AGamePlayerController::SetCameraView()
 	SetViewTargetWithBlend(findActors[0]);
 	/// - SetViewTargetWithBlend(NewViewTarget) 
 	/// - 뷰 타깃을 NewViewTarget 으로 설정합니다.
+}
+
+
+void AGamePlayerController::RotateController()
+{
+	SetControlRotation(
+		FRotator(0.0f, PlayerCharacter->GetHorizontalInputValue() * 90.0f, 0.0f));
 }

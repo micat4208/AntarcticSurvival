@@ -10,6 +10,9 @@ APlayerCharacter::APlayerCharacter()
 	static ConstructorHelpers::FObjectFinder<USkeletalMesh> SK_BODY(
 		TEXT("SkeletalMesh'/Game/Resources/Character/SK_Penguin.SK_Penguin'"));
 
+	static ConstructorHelpers::FClassFinder<UAnimInstance> ANIMBP_PLAYER_CHARACTER(
+		TEXT("AnimBlueprint'/Game/Blueprints/Actor/AnimBP_PlayerCharacter.AnimBP_PlayerCharacter_C'"));
+
 	// 펭귄 SkeletalMesh Asset 을 성공적으로 찾았다면
 	if (SK_BODY.Succeeded())
 	{
@@ -27,6 +30,10 @@ APlayerCharacter::APlayerCharacter()
 		GetMesh()->SetRelativeLocationAndRotation(
 			FVector::UpVector * -88.0f,
 			FRotator(0.0f, -90.0f, 0.0f));
+
+		if (ANIMBP_PLAYER_CHARACTER.Succeeded())
+			GetMesh()->SetAnimInstanceClass(ANIMBP_PLAYER_CHARACTER.Class);
+		/// - SkeletalMeshComponent 에서 사용할 AnimInstance Class 를 설정합니다.
 	}
 	else
 	{
@@ -44,6 +51,10 @@ APlayerCharacter::APlayerCharacter()
 	/// - CreateDefaultSubobject<TReturnType>(HASH)
 	/// - TReturnType 에 해당하는 클래스를 동적 할당합니다.
 	/// - HASH : 액터에 속한 객체들을 구분하기 위해 사용되는 문자열
+
+	bUseControllerRotationYaw = false;
+	GetCharacterMovement()->bOrientRotationToMovement = true;
+	GetCharacterMovement()->RotationRate = FRotator(0.0f, 720.0f, 0.0f);
 
 
 
