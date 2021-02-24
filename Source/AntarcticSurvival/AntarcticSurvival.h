@@ -5,6 +5,15 @@
 
 #include "EngineMinimal.h"
 
+
+#ifndef FN_PTR_DEFINE
+#define FN_PTR_DEFINE
+
+#define Action(fnPtrName, ParamTypes) void(*fnPtrName)ParamTypes
+#define Func(RetType, fnPtrName, ParamTypes) RetType(*fnPtrName)ParamTypes
+#endif
+
+
 // Unreal Script
 // 리플렉션 시스템(Property System) 을 지원합니다.
 // 리플렉션
