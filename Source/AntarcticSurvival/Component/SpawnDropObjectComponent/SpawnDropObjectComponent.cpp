@@ -2,6 +2,8 @@
 
 #include "Engine/DataTable.h"
 
+#include "Actor/DropObject/DropObject.h"
+
 #include "Struct/DropObjectInfo/DropObjectInfo.h"
 
 
@@ -13,12 +15,20 @@ USpawnDropObjectComponent::USpawnDropObjectComponent()
 		TEXT("DataTable'/Game/DataTables/DT_DropObjectInfo.DT_DropObjectInfo'"));
 	if (DT_DROP_OBJECT_INFO.Succeeded())
 		DT_DropObjectInfo = DT_DROP_OBJECT_INFO.Object;
+
+	MinDelay = 1.0f;
+	MaxDelay = 0.02f;
+
+	SpawnMaxLeftY = 981.0f;
+	SpawnMaxRightY = -815.9;
 }
 
 void USpawnDropObjectComponent::BeginPlay()
 {
 	Super::BeginPlay();
 	
+	SpawnDelay = MinDelay;
+
 	// DataTable 에서 행의 이름들을 얻습니다.
 	for (FName rowName : DT_DropObjectInfo->GetRowNames())
 	{
@@ -40,6 +50,8 @@ void USpawnDropObjectComponent::BeginPlay()
 
 		targetArray.Add(info);
 	}
+
+	SpawnDropObject();
 }
 
 void USpawnDropObjectComponent::TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction)
@@ -81,7 +93,31 @@ void USpawnDropObjectComponent::SpawnDropObject()
 	FDropObjectInfo* dropObjInfo = fnGetRandomDropObjInfo(
 		dropObjType, &FishObjInfos, &TrashObjInfos);
 
-	// DropObject 액터를 생성
+	FVector spawnLocation =
+		GetOwner()->GetActorLocation() +
+		(FMath::FRandRange(SpawnMaxRightY, SpawnMaxLeftY) * FVector::RightVector);
 
+	// DropObject 액터를 생성합니다.
+	ADropObject * newDropObject = GetWorld()->SpawnActor<ADropObject>(
+		spawnLocation,
+		FRotator::ZeroRotator);
+	/// - SpawnActor<T>(FVector location, FRotator rotation) : T 형식의 액터를
+	///   location 위치에 생성하고 rotation 회전값으로 설정합니다.
+
+	// DropObject 초기화
+	newDropObject->InitializeDropObject(
+		300.0f + (300.0f * (MinDelay - SpawnDelay)),
+		dropObjInfo);
+
+
+	FTimerHandle hSpawnDropObjTimer;
+	GetWorld()->GetTimerManager().SetTimer(
+		hSpawnDropObjTimer,
+		this, 
+		&USpawnDropObjectComponent::SpawnDropObject, 
+		SpawnDelay,
+		false);
+	// 타이머 : 정의한 시간마다 특정한 동작을 수행하는 기능
+	/// - 타이머가 수행할 행동의 함수 형태 : void()
 
 }

@@ -23,6 +23,17 @@ private :
 	/// - ClampMin, Max : 해당 속성에 설정될 수 있는 최소, 최대 값을 지정합니다.
 	/// - UIMin, Max : 슬라이더를 통하여 설정될 수 있는 값의 최소, 최대 값을 지정합니다.
 
+	UPROPERTY(EditAnywhere, Category = "오브젝트 생성 딜레이", meta = (AllowPrivateAccess = "true"))
+	float MinDelay;
+	UPROPERTY(EditAnywhere, Category = "오브젝트 생성 딜레이", meta = (AllowPrivateAccess = "true"))
+	float MaxDelay;
+
+	// 오브젝트 생성 딜레이
+	float SpawnDelay;
+
+	float SpawnMaxLeftY;
+	float SpawnMaxRightY;
+
 	// 물고기, 쓰레기 정보를 저장할 배열
 	TArray<struct FDropObjectInfo*> FishObjInfos;
 	TArray<struct FDropObjectInfo*> TrashObjInfos;
