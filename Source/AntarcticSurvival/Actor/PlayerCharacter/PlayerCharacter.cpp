@@ -64,6 +64,8 @@ void APlayerCharacter::BeginPlay()
 {
 	Super::BeginPlay();
 
+	// 액터에 태그를 추가합니다.
+	Tags.Add(FName(TEXT("PlayerCharacter")));
 }
 
 void APlayerCharacter::Tick(float DeltaTime)
