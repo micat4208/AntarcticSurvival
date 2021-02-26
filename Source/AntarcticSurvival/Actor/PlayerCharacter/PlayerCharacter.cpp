@@ -56,8 +56,7 @@ APlayerCharacter::APlayerCharacter()
 	GetCharacterMovement()->bOrientRotationToMovement = true;
 	GetCharacterMovement()->RotationRate = FRotator(0.0f, 720.0f, 0.0f);
 
-
-
+	HungryValue = 50.0f;
 }
 
 void APlayerCharacter::BeginPlay()
@@ -66,6 +65,9 @@ void APlayerCharacter::BeginPlay()
 
 	// 액터에 태그를 추가합니다.
 	Tags.Add(FName(TEXT("PlayerCharacter")));
+
+	// 피해를 입었을 경우 호출될 메서드를 바인딩합니다.
+	OnTakeAnyDamage.AddDynamic(this, &APlayerCharacter::OnHit);
 }
 
 void APlayerCharacter::Tick(float DeltaTime)
@@ -132,3 +134,12 @@ void APlayerCharacter::InputHorizontal(float axis)
 	HorizontalInputValue = axis;
 }
 
+void APlayerCharacter::OnHit(
+	AActor* DamagedActor,
+	float Damage,
+	const class UDamageType* DamageType,
+	class AController* InstigatedBy,
+	AActor* DamageCauser)
+{
+	HungryValue += Damage;
+}

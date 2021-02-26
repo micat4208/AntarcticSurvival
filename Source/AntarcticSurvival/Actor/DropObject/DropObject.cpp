@@ -1,5 +1,8 @@
 #include "DropObject.h"
 
+#include "GameFramework/DamageType.h"
+#include "GameFramework/RotatingMovementComponent.h"
+
 #include "Kismet/GameplayStatics.h"
 
 #include "Struct/DropObjectInfo/DropObjectInfo.h"
@@ -13,6 +16,8 @@ ADropObject::ADropObject()
 
 	// StaticMeshComponent 를 추가합니다.
 	DropObjectMesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("DROP_OBJ_MESH"));
+
+	RotatingMovement = CreateDefaultSubobject<URotatingMovementComponent>(TEXT("ROTATING_MOVEMENT"));
 
 	// 추가한 StaticMeshComponent 를 액터를 대표하는 컴포넌트로 지정합니다.
 	SetRootComponent(DropObjectMesh);
@@ -56,13 +61,20 @@ void ADropObject::InitializeDropObject(
 	// 떨어지는 속력 설정
 	FallDownSpeed = fallDownSpeed;
 
+	// 대미지, 회복량 설정
+	ChangeHungryValue = dropObjInfo->ChangeHungryValue;
+
+	// 오브젝트 타입 설정
+	DropObjectType = dropObjInfo->DropObjectType;
+
+	RotatingMovement->RotationRate = (DropObjectType == EDropObjectType::DT_Fish) ?
+		FRotator::ZeroRotator : FRotator(0.0f, 0.0f, -180.0f);
+
 	// Static Mesh 애셋 적용
 	DropObjectMesh->SetStaticMesh(dropObjInfo->DropobjectStaticMesh);
 
 	// Static Mesh Component 의 Collision Preset 속성 변경
 	DropObjectMesh->SetCollisionProfileName(FName(TEXT("OverlapAllDynamic")));
-
-
 }
 
 
@@ -77,9 +89,17 @@ void ADropObject::AddDamage(
 	// 플레이어 캐릭터와 겹쳤을 경우
 	if (OtherActor->ActorHasTag(TEXT("PlayerCharacter")))
 	{
+		// 대미지 / 회복량을 저장합니다.
+		float addDamage = (DropObjectType == EDropObjectType::DT_Fish) ?
+			ChangeHungryValue : -ChangeHungryValue;
 
 		// 플레이어 캐릭터에게 대미지를 가합니다.
-		//UGameplayStatics::ApplyDamage();
+		UGameplayStatics::ApplyDamage(
+			OtherActor,
+			addDamage,
+			nullptr,
+			this,
+			UDamageType::StaticClass());
 		/// ApplyDamage(AActor *					DamagedActor
 		///             float						BaseDamage
 		///             AController*				EventInstigator

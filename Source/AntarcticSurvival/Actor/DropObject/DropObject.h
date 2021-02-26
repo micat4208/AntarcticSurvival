@@ -2,6 +2,9 @@
 
 #include "AntarcticSurvival.h"
 #include "GameFramework/Actor.h"
+
+#include "Enum/DropObjectType.h"
+
 #include "DropObject.generated.h"
 
 UCLASS()
@@ -14,9 +17,19 @@ private :
 	UPROPERTY(VisibleAnywhere, meta = (AllowPrivateAccess = "true"))
 	class UStaticMeshComponent* DropObjectMesh;
 
+	UPROPERTY(VisibleAnywhere, meta = (AllowPrivateAccess = "true"))
+	class URotatingMovementComponent* RotatingMovement;
+
+
 private :
 	// 떨어지는 속력을 나타냅니다.
 	float FallDownSpeed;
+
+	// 플레이어에게 가할 대미지 / 회복할 체력을 나타냅니다.
+	float ChangeHungryValue;
+
+	// 오브젝트의 타입을 나타냅니다.
+	EDropObjectType DropObjectType;
 
 public:	
 	ADropObject();

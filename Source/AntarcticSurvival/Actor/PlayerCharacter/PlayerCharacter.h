@@ -28,6 +28,9 @@ private :
 	// 수평 입력 값을 나타냅니다.
 	float HorizontalInputValue;
 
+	// 배고픔 입력 수치를 나타냅니다.
+	float HungryValue;
+
 protected :
 	UPROPERTY(VisibleAnywhere)
 	class UCharacterMovementHelperComponent* MovementHelper;
@@ -58,5 +61,14 @@ public :
 	// HorizontalInputValue 값을 반환합니다.
 	FORCEINLINE float GetHorizontalInputValue() const
 	{ return HorizontalInputValue; }
+
+private :
+	UFUNCTION()
+	void OnHit(
+		AActor* DamagedActor, 
+		float Damage, 
+		const class UDamageType* DamageType, 
+		class AController* InstigatedBy, 
+		AActor* DamageCauser);
 
 };
