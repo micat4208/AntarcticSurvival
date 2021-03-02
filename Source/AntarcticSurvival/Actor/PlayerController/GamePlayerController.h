@@ -1,19 +1,26 @@
 #pragma once
 
-#include "AntarcticSurvival.h"
-#include "GameFramework/PlayerController.h"
+
+#include "Actor/PlayerController/BasePlayerController.h"
 #include "GamePlayerController.generated.h"
 
 UCLASS()
 class ANTARCTICSURVIVAL_API AGamePlayerController : 
-	public APlayerController
+	public ABasePlayerController
 {
 	GENERATED_BODY()
+
+private :
+	// BP_Game Widget 클래스를 나타냅니다.
+	TSubclassOf<class UUserWidget> BP_Game;
 
 private :
 	// 조종당하는 PlayerCharacter Pawn 을 나타냅니다.
 	UPROPERTY()
 	class APlayerCharacter* PlayerCharacter;
+
+public :
+	AGamePlayerController(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get());
 
 protected :
 	virtual void BeginPlay() override;
@@ -24,9 +31,6 @@ protected :
 public :
 	virtual void Tick(float DeltaTime) override;
 
-private :
-	// 카메라 뷰를 설정합니다.
-	void SetCameraView();
 
 public :
 	void RotateController();
