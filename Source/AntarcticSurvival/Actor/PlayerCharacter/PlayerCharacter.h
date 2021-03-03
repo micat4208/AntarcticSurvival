@@ -58,9 +58,7 @@ private :
 	void InputHorizontal(float axis);
 
 public :
-	// HorizontalInputValue 값을 반환합니다.
-	FORCEINLINE float GetHorizontalInputValue() const
-	{ return HorizontalInputValue; }
+	void AddHungryValue(float addValue);
 
 private :
 	UFUNCTION()
@@ -70,5 +68,13 @@ private :
 		const class UDamageType* DamageType, 
 		class AController* InstigatedBy, 
 		AActor* DamageCauser);
+
+public :
+	// HorizontalInputValue 값을 반환합니다.
+	FORCEINLINE float GetHorizontalInputValue() const
+	{ return HorizontalInputValue; }
+
+	FORCEINLINE float GetHungryValue() const
+	{ return HungryValue; }
 
 };

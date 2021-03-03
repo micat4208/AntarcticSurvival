@@ -54,5 +54,8 @@ private :
 	// DropObject Actor 를 스폰시키는 메서드
 	void SpawnDropObject();
 
+	// 생성 속도를 점점 더 빠르게 변경합니다.
+	void ChangeDelayFaster(float dt);
+
 		
 };

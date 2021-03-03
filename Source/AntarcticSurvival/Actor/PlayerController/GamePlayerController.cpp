@@ -4,6 +4,8 @@
 
 #include "Actor/PlayerCharacter/PlayerCharacter.h"
 
+#include "Widget/GameWidget/GameWidget.h"
+
 
 AGamePlayerController::AGamePlayerController(const FObjectInitializer& ObjectInitializer) :
 	Super(ObjectInitializer)
@@ -26,8 +28,8 @@ void AGamePlayerController::OnPossess(APawn* aPawn)
 
 	PlayerCharacter = Cast<APlayerCharacter>(aPawn);
 	
-	// À§Á¬À» ¶ç¿ó´Ï´Ù.
-	FloatingWidget(BP_Game);
+	// À§Á¬À» ¶ç¿ì¸ç ¶ç¿î À§Á¬À» ÃÊ±âÈ­ÇÕ´Ï´Ù.
+	Cast<UGameWidget>(FloatingWidget(BP_Game))->InitializeGameWidget(this);
 }
 
 void AGamePlayerController::Tick(float DeltaTime)
@@ -36,7 +38,6 @@ void AGamePlayerController::Tick(float DeltaTime)
 
 	//RotateController();
 }
-
 
 void AGamePlayerController::RotateController()
 {

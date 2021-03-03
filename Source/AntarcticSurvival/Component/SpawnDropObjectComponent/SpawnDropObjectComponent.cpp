@@ -57,6 +57,8 @@ void USpawnDropObjectComponent::BeginPlay()
 void USpawnDropObjectComponent::TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction)
 {
 	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
+
+	ChangeDelayFaster(DeltaTime);
 }
 
 void USpawnDropObjectComponent::SpawnDropObject()
@@ -120,4 +122,14 @@ void USpawnDropObjectComponent::SpawnDropObject()
 	// 타이머 : 정의한 시간마다 특정한 동작을 수행하는 기능
 	/// - 타이머가 수행할 행동의 함수 형태 : void()
 
+}
+
+void USpawnDropObjectComponent::ChangeDelayFaster(float dt)
+{
+	UE_LOG(LogTemp, Warning, TEXT("SpawnDelay = %.2f"), SpawnDelay);
+
+	if (SpawnDelay > MaxDelay)
+		SpawnDelay -= dt * 0.05f;
+
+	else SpawnDelay = MaxDelay;
 }

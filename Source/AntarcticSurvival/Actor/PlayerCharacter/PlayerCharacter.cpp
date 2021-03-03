@@ -74,6 +74,8 @@ void APlayerCharacter::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
+	AddHungryValue(DeltaTime * -2.0f);
+
 }
 
 void APlayerCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
@@ -134,6 +136,15 @@ void APlayerCharacter::InputHorizontal(float axis)
 	HorizontalInputValue = axis;
 }
 
+void APlayerCharacter::AddHungryValue(float addValue)
+{
+	HungryValue += addValue;
+
+	// 배고픔 수치를 0 ~ 100 사이의 값으로 가둡니다.
+	HungryValue = FMath::Clamp(HungryValue, 0.0f, 100.0f);
+	/// - Clamp(x, min, max) : x 의 값을 min ~ max 사이의 값으로 가두고, 그 결과를 반환합니다.
+}
+
 void APlayerCharacter::OnHit(
 	AActor* DamagedActor,
 	float Damage,
@@ -141,5 +152,6 @@ void APlayerCharacter::OnHit(
 	class AController* InstigatedBy,
 	AActor* DamageCauser)
 {
-	HungryValue += Damage;
+	// 배고픔 수치 변경
+	AddHungryValue(Damage);
 }

@@ -35,7 +35,14 @@ public :
 public :
 	void RotateController();
 
+public :
+	FORCEINLINE class APlayerCharacter* GetPlayerCharacter() const
+	{ return PlayerCharacter; }
+
+
+
 
 
 	
 };
+
