@@ -1,9 +1,12 @@
-#include "GameWidget.h"
+ï»¿#include "GameWidget.h"
+
+#include "Single/GameInstance/ASGameInst.h"
 
 #include "Actor/PlayerController/GamePlayerController.h"
 #include "Actor/PlayerCharacter/PlayerCharacter.h"
 
 #include "Components/Image.h"
+#include "Components/TextBlock.h"
 #include "Components/CanvasPanelSlot.h"
 
 void UGameWidget::NativeConstruct()
@@ -15,8 +18,10 @@ void UGameWidget::NativeTick(const FGeometry& MyGeometry, float InDeltaTime)
 {
 	Super::NativeTick(MyGeometry, InDeltaTime);
 
-	// Æë±Ï ÀÌ¹ÌÁö¸¦ ÁÂ¿ì·Î ÀÌµ¿½ÃÅµ´Ï´Ù.
+	// í­ê·„ ì´ë¯¸ì§€ë¥¼ ì¢Œìš°ë¡œ ì´ë™ì‹œí‚µë‹ˆë‹¤.
 	MoveHungryImage();
+
+	UpdateScoreText();
 }
 
 void UGameWidget::InitializeGameWidget(ABasePlayerController* playerController)
@@ -26,20 +31,29 @@ void UGameWidget::InitializeGameWidget(ABasePlayerController* playerController)
 
 void UGameWidget::MoveHungryImage()
 {
-	// ÇÃ·¹ÀÌ¾î Ä³¸¯ÅÍ°¡ Á¸ÀçÇÏÁö ¾Ê´Â °æ¿ì ¸Ş¼­µå È£Ãâ Á¾·á
+	// í”Œë ˆì´ì–´ ìºë¦­í„°ê°€ ì¡´ì¬í•˜ì§€ ì•ŠëŠ” ê²½ìš° ë©”ì„œë“œ í˜¸ì¶œ ì¢…ë£Œ
 	auto playerCharacter = PlayerController->GetPlayerCharacter();
 	if (!IsValid(playerCharacter)) return;
 
-	// Image_HungryGauge À§Á¬ Å©±â¸¦ ¾ò½À´Ï´Ù.
+	// Image_HungryGauge ìœ„ì ¯ í¬ê¸°ë¥¼ ì–»ìŠµë‹ˆë‹¤.
 	FVector2D gaugeSize = Cast<UCanvasPanelSlot>(Image_HungryGauge->Slot)->GetSize();
 
-	// Image_CurrentGauge ÀÇ CanvasPanelSlot À» ¾ò½À´Ï´Ù.
+	// Image_CurrentGauge ì˜ CanvasPanelSlot ì„ ì–»ìŠµë‹ˆë‹¤.
 	auto currentGaugeSlot = Cast<UCanvasPanelSlot>(Image_CurrentGauge->Slot);
 
-	// ¼³Á¤ÇÒ À§Ä¡¸¦ °è»êÇÕ´Ï´Ù.
+	// ì„¤ì •í•  ìœ„ì¹˜ë¥¼ ê³„ì‚°í•©ë‹ˆë‹¤.
 	FVector2D newPosition = currentGaugeSlot->GetPosition();
 	newPosition.X = (gaugeSize.X * 0.01f) * playerCharacter->GetHungryValue();
 
-	// Image_CurrentGauge ÀÇ X À§Ä¡¸¦ º¯°æÇÕ´Ï´Ù.
+	// Image_CurrentGauge ì˜ X ìœ„ì¹˜ë¥¼ ë³€ê²½í•©ë‹ˆë‹¤.
 	currentGaugeSlot->SetPosition(newPosition);
+}
+
+void UGameWidget::UpdateScoreText()
+{
+	FString scoreStr = FString::Printf(
+		TEXT("í˜„ì¬ì ìˆ˜\n%.2f"), 
+		GameInst()->GetCurrentScore());
+
+	Text_Score->SetText(FText::FromString(scoreStr));
 }

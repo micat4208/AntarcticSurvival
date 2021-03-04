@@ -1,6 +1,10 @@
 ﻿#include "PlayerCharacter.h"
 
+#include "Single/GameInstance/ASGameInst.h"
+
 #include "Component/CharacterMovementHelperComponent/CharacterMovementHelperComponent.h"
+
+
 
 APlayerCharacter::APlayerCharacter()
 {
@@ -154,4 +158,7 @@ void APlayerCharacter::OnHit(
 {
 	// 배고픔 수치 변경
 	AddHungryValue(Damage);
+
+	// 점수 증가 / 감소
+	GameInst()->AddScore(Damage);
 }

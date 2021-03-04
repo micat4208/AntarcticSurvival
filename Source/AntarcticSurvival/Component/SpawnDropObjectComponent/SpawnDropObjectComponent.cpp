@@ -126,8 +126,6 @@ void USpawnDropObjectComponent::SpawnDropObject()
 
 void USpawnDropObjectComponent::ChangeDelayFaster(float dt)
 {
-	UE_LOG(LogTemp, Warning, TEXT("SpawnDelay = %.2f"), SpawnDelay);
-
 	if (SpawnDelay > MaxDelay)
 		SpawnDelay -= dt * 0.05f;
 
