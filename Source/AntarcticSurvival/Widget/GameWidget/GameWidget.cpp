@@ -8,10 +8,13 @@
 #include "Components/Image.h"
 #include "Components/TextBlock.h"
 #include "Components/CanvasPanelSlot.h"
+#include "Components/Overlay.h"
 
 void UGameWidget::NativeConstruct()
 {
 	Super::NativeConstruct();
+
+	SetGameOverVisibility(false);
 }
 
 void UGameWidget::NativeTick(const FGeometry& MyGeometry, float InDeltaTime)
@@ -27,6 +30,14 @@ void UGameWidget::NativeTick(const FGeometry& MyGeometry, float InDeltaTime)
 void UGameWidget::InitializeGameWidget(ABasePlayerController* playerController)
 {
 	PlayerController = Cast<AGamePlayerController>(playerController);
+}
+
+void UGameWidget::SetGameOverVisibility(bool bVisible)
+{
+	Overlay_GameOver->SetVisibility(
+		bVisible ?
+		ESlateVisibility::SelfHitTestInvisible :
+		ESlateVisibility::Hidden);
 }
 
 void UGameWidget::MoveHungryImage()

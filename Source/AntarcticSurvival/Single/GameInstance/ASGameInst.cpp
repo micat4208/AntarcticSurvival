@@ -1,7 +1,11 @@
-// Fill out your copyright notice in the Description page of Project Settings.
-
-
 #include "ASGameInst.h"
+
+void UASGameInst::Init()
+{
+	Super::Init();
+
+	TryUpdateBestScore();
+}
 
 void UASGameInst::AddScore(float addScore)
 {
@@ -11,5 +15,11 @@ void UASGameInst::AddScore(float addScore)
 	//if (CurrentScore < 0.0f) CurrentScore = 0.0f;
 
 
+}
+
+void UASGameInst::TryUpdateBestScore()
+{
+	FSaveData bestData(CurrentScore, FDateTime::Now());
+	SaveJson(TEXT("BestData"), bestData);
 }
 
