@@ -31,6 +31,9 @@ private :
 	// 배고픔 입력 수치를 나타냅니다.
 	float HungryValue;
 
+	// 빙의된 플레이어 컨트롤러 객체를 나타냅니다.
+	class AGamePlayerController* GamePlayerController;
+
 protected :
 	UPROPERTY(VisibleAnywhere)
 	class UCharacterMovementHelperComponent* MovementHelper;
@@ -47,6 +50,7 @@ protected:
 
 public:	
 	virtual void Tick(float DeltaTime) override;
+	virtual void PossessedBy(AController* NewController) override;
 
 
 	// 프로젝트 세팅 -> 입력에 매핑한 키 입력 이벤트를 폰에 등록합니다.

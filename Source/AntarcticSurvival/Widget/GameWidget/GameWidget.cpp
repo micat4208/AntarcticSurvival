@@ -32,12 +32,19 @@ void UGameWidget::InitializeGameWidget(ABasePlayerController* playerController)
 	PlayerController = Cast<AGamePlayerController>(playerController);
 }
 
-void UGameWidget::SetGameOverVisibility(bool bVisible)
+void UGameWidget::SetGameOverVisibility(bool bVisible, bool bStartTimer)
 {
 	Overlay_GameOver->SetVisibility(
 		bVisible ?
 		ESlateVisibility::SelfHitTestInvisible :
 		ESlateVisibility::Hidden);
+
+	if (bStartTimer)
+	{
+		FTimerHandle timerHanle;
+		GetWorld()->GetTimerManager().SetTimer(timerHanle, 
+			this, &UGameWidget::ChangeToTitleMap, 3.0f, false);
+	}
 }
 
 void UGameWidget::MoveHungryImage()
@@ -67,4 +74,9 @@ void UGameWidget::UpdateScoreText()
 		GameInst()->GetCurrentScore());
 
 	Text_Score->SetText(FText::FromString(scoreStr));
+}
+
+void UGameWidget::ChangeToTitleMap()
+{
+	UGameplayStatics::OpenLevel(GetWorld(), TEXT("TitleMap"));
 }

@@ -1,6 +1,10 @@
 ﻿#include "PlayerCharacter.h"
 
+#include "Actor/PlayerController/GamePlayerController.h"
+
 #include "Single/GameInstance/ASGameInst.h"
+
+#include "Widget/GameWidget/GameWidget.h"
 
 #include "Component/CharacterMovementHelperComponent/CharacterMovementHelperComponent.h"
 
@@ -82,6 +86,13 @@ void APlayerCharacter::Tick(float DeltaTime)
 
 }
 
+void APlayerCharacter::PossessedBy(AController* NewController)
+{
+	Super::PossessedBy(NewController);
+
+	GamePlayerController = Cast<AGamePlayerController>(NewController);
+}
+
 void APlayerCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 {
 	Super::SetupPlayerInputComponent(PlayerInputComponent);
@@ -143,6 +154,12 @@ void APlayerCharacter::InputHorizontal(float axis)
 void APlayerCharacter::AddHungryValue(float addValue)
 {
 	HungryValue += addValue;
+
+	if (HungryValue <= 0.0f)
+	{
+		Cast<UGameWidget>(GamePlayerController->GetWidget())->
+			SetGameOverVisibility(true, true);
+	}
 
 	// 배고픔 수치를 0 ~ 100 사이의 값으로 가둡니다.
 	HungryValue = FMath::Clamp(HungryValue, 0.0f, 100.0f);

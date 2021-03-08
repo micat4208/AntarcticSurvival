@@ -34,13 +34,15 @@ public :
 	// GameWidget Instance 를 초기화하는 메서드
 	void InitializeGameWidget(class ABasePlayerController* playerController);
 
-private :
-	void SetGameOverVisibility(bool bVisible);
+	void SetGameOverVisibility(bool bVisible, bool bStartTimer = false);
 
+private :
 	// 배고픔 상태를 나타내는 이미지를 좌우로 이동시킵니다.
 	void MoveHungryImage();
 
 	// 점수 텍스트를 갱신합니다.
 	void UpdateScoreText();
+
+	void ChangeToTitleMap();
 
 };
