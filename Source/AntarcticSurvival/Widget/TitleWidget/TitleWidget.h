@@ -10,8 +10,17 @@
  * 
  */
 UCLASS()
-class ANTARCTICSURVIVAL_API UTitleWidget : public UUserWidget
+class ANTARCTICSURVIVAL_API UTitleWidget final : 
+	public UUserWidget
 {
 	GENERATED_BODY()
 	
+private :
+	UPROPERTY(meta = (BindWidgetAnim))
+	class UWidgetAnimation * Anim_FloatingLogo;
+
+protected :
+	virtual void NativeConstruct() override;
+
+
 };
