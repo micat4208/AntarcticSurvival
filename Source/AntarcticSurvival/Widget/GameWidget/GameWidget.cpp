@@ -39,8 +39,13 @@ void UGameWidget::SetGameOverVisibility(bool bVisible, bool bStartTimer)
 		ESlateVisibility::SelfHitTestInvisible :
 		ESlateVisibility::Hidden);
 
+
 	if (bStartTimer)
 	{
+		//UE_LOG(LogTemp, Warning, TEXT("score = %.2f"),
+		//	Cast<UASGameInst>(GetWorld()->GetGameInstance())->GetCurrentScore());
+		Cast<UASGameInst>(GetWorld()->GetGameInstance())->TryUpdateBestScore();
+
 		FTimerHandle timerHanle;
 		GetWorld()->GetTimerManager().SetTimer(timerHanle, 
 			this, &UGameWidget::ChangeToTitleMap, 3.0f, false);

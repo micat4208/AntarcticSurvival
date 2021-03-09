@@ -39,6 +39,45 @@ public :
 	void TryUpdateBestScore();
 
 	template<typename T>
+	bool LoadJson(FString fileName, T& outResult, FString keyName = FString(TEXT("default")))
+	{
+		// 파일이 저장된 폴더 경로
+		FString folderPath = FPaths::GameDir() + TEXT("/Content/Resources/Json");
+
+		// 경로가 존재하지 않는다면 로드 실패
+		if (!FPlatformFileManager::Get().GetPlatformFile().DirectoryExists(*folderPath))
+			return false;
+
+		FString fullPath = folderPath + FString(TEXT("/")) + fileName + FString(TEXT(".json"));
+
+		// 파일을 읽어옵니다.
+		FString jsonStr;
+		if (!FFileHelper::LoadFileToString(jsonStr, *fullPath)) return false;
+		/// - 만약 파일을 읽지 못했다면 로드 실패
+
+		// Json 파일을 읽을 객체 생성
+		TSharedRef<TJsonReader<TCHAR>> reader = TJsonReaderFactory<TCHAR>::Create(jsonStr);
+
+		// Json 오브젝트 생성
+		TSharedPtr<FJsonObject> jsonObj = MakeShareable(new FJsonObject());
+
+		// 역직렬화하여 원하는 데이터를 얻습니다.
+		bool completed = false;
+		completed = FJsonSerializer::Deserialize(reader, jsonObj);
+
+		// 역직렬화에 성공했다면
+		if (completed)
+		{
+			// outResult 에 읽은 값을 저장합니다.
+			FJsonObjectConverter::JsonObjectStringToUStruct(
+				jsonObj->GetStringField(keyName), &outResult, 0, 0);
+		}
+
+		return completed;
+	}
+
+
+	template<typename T>
 	void SaveJson(FString fileName, T& saveData, FString keyName = FString(TEXT("default")))
 	{
 		// 파일이 저장된 폴더 경로

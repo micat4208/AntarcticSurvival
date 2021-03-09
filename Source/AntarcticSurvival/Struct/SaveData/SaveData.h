@@ -29,4 +29,13 @@ public:
 	FSaveData();
 
 	FSaveData(float bestScore, FDateTime dateTime);
+
+	FORCEINLINE FText GetDateString() const
+	{
+		return FText::FromString(FString::Printf(TEXT("%d-%d-%d %d:%d:%d"),
+			Year, Month, Day, Hours, Minutes, Seconds));
+	}
+
+	FORCEINLINE FText GetScoreText() const
+	{ return FText::FromString(FString::Printf(TEXT("%.2f Á¡"), BestScore)); }
 };

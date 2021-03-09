@@ -13,8 +13,6 @@ void UASGameInst::AddScore(float addScore)
 
 	CurrentScore = (CurrentScore < 0.0f) ? 0.0f : CurrentScore;
 	//if (CurrentScore < 0.0f) CurrentScore = 0.0f;
-
-
 }
 
 void UASGameInst::TryUpdateBestScore()
