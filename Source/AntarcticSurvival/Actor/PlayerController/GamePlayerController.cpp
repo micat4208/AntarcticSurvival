@@ -30,6 +30,8 @@ void AGamePlayerController::OnPossess(APawn* aPawn)
 	
 	// À§Á¬À» ¶ç¿ì¸ç ¶ç¿î À§Á¬À» ÃÊ±âÈ­ÇÕ´Ï´Ù.
 	Cast<UGameWidget>(FloatingWidget(BP_Game))->InitializeGameWidget(this);
+	SetInputMode(FInputModeGameOnly());
+	bShowMouseCursor = false;
 }
 
 void AGamePlayerController::Tick(float DeltaTime)

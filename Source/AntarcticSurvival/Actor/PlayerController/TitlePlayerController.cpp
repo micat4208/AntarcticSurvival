@@ -15,4 +15,5 @@ void ATitlePlayerController::OnPossess(APawn* aPawn)
 
 	FloatingWidget(BP_Title);
 	SetInputMode(FInputModeUIOnly());
+	bShowMouseCursor = true;
 }
