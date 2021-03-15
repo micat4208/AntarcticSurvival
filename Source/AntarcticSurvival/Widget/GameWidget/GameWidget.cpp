@@ -42,6 +42,10 @@ void UGameWidget::SetGameOverVisibility(bool bVisible, bool bStartTimer)
 
 	if (bStartTimer)
 	{
+		if (GameInst()->bIsGameOver) return;
+		
+		GameInst()->bIsGameOver = true;
+
 		//UE_LOG(LogTemp, Warning, TEXT("score = %.2f"),
 		//	Cast<UASGameInst>(GetWorld()->GetGameInstance())->GetCurrentScore());
 		Cast<UASGameInst>(GetWorld()->GetGameInstance())->TryUpdateBestScore();

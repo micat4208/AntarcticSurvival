@@ -21,9 +21,11 @@ class ANTARCTICSURVIVAL_API UASGameInst final :
 {
 	GENERATED_BODY()
 	
-private :
-	FSaveData SaveData;
+public : 
+	UPROPERTY()
+	bool bIsGameOver;
 
+private :
 	// 현재 점수를 나타냅니다.
 	UPROPERTY()
 	float CurrentScore;
@@ -129,6 +131,11 @@ public :
 public :
 	FORCEINLINE float GetCurrentScore() const
 	{ return CurrentScore; }
+
+	FORCEINLINE void ResetCurrentScore()
+	{ CurrentScore = 0.0f; }
+
+	bool GetSaveData(FSaveData & outSaveData);
 
 
 

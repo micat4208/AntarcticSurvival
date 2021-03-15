@@ -24,22 +24,25 @@ void UTitleWidget::UpdateBestScore()
 	// GameInstance
 	auto gameInst = Cast<UASGameInst>(GetWorld()->GetGameInstance());
 
-	// 최고 점수 데이터 로드
-	FSaveData loadedData;
-	// 최고 점수 데이터 로드에 성공했다면
-	if (gameInst->LoadJson(TEXT("BestData"), loadedData))
+	FSaveData saveData;
+	bool comp = gameInst->GetSaveData(saveData);
+
+	if (comp)
 	{
 		// 기록을 세운 날짜 / 시간 설정
-		Text_Date->SetText(loadedData.GetDateString());
+		Text_Date->SetText(saveData.GetDateString());
 
 		// 최고 점수 텍스트 내용 설정
-		Text_Score->SetText(loadedData.GetScoreText());
+		Text_Score->SetText(saveData.GetScoreText());
 	}
+
 
 }
 
 void UTitleWidget::OnGameStartButtonClicked()
 {
+	GameInst()->bIsGameOver = false;
+	GameInst()->ResetCurrentScore();
 	UGameplayStatics::OpenLevel(GetWorld(), TEXT("GameMap"));
 }
 

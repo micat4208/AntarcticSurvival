@@ -1,4 +1,4 @@
-#pragma once
+Ôªø#pragma once
 
 #include "CoreMinimal.h"
 #include "SaveData.generated.h"
@@ -37,5 +37,5 @@ public:
 	}
 
 	FORCEINLINE FText GetScoreText() const
-	{ return FText::FromString(FString::Printf(TEXT("%.2f ¡°"), BestScore)); }
+	{ return FText::FromString(FString::Printf(TEXT("%.2f Ï†ê"), BestScore)); }
 };
