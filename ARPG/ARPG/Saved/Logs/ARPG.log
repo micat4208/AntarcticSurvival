@@ -1,0 +1,735 @@
+﻿Log file open, 03/15/21 19:30:59
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: ARPG
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 35 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.055627
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +9:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogHMD: Failed initializing OVRPlugin 1.37.0
+LogInit: Build: ++UE4+Release-4.23-CL-9631420
+LogInit: Engine Version: 4.23.1-9631420+++UE4+Release-4.23
+LogInit: Compatible Engine Version: 4.23.0-8386587+++UE4+Release-4.23
+LogInit: Net CL: 8386587
+LogInit: OS: Windows 10 (Release 2004) (), CPU: Intel(R) Core(TM) i7-8700 CPU @ 3.20GHz, GPU: NVIDIA GeForce GTX 1050
+LogInit: Compiled (64-bit): Oct 18 2019 02:07:44
+LogInit: Compiled with Visual C++: 19.16.27030.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.23
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.23/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 23
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 3
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 34
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 35
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 31
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 11
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 2
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 27
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 6
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 9
+LogInit: Presizing for max 16777216 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2021.03.15-10.31.00:110][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2021.03.15-10.31.00:110][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2021.03.15-10.31.00:110][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/SBSGAME/Desktop/Share/Unreal/Unreal1/ARPG/ARPG/Saved/Config/Windows/Engine.ini]
+[2021.03.15-10.31.00:110][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2021.03.15-10.31.00:110][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:1]]
+[2021.03.15-10.31.00:110][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/SBSGAME/Desktop/Share/Unreal/Unreal1/ARPG/ARPG/Saved/Config/Windows/Engine.ini]
+[2021.03.15-10.31.00:110][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/SBSGAME/Desktop/Share/Unreal/Unreal1/ARPG/ARPG/Saved/Config/Windows/Engine.ini]
+[2021.03.15-10.31.00:110][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2021.03.15-10.31.00:110][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2021.03.15-10.31.00:110][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2021.03.15-10.31.00:110][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2021.03.15-10.31.00:110][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2021.03.15-10.31.00:110][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2021.03.15-10.31.00:110][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2021.03.15-10.31.00:110][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2021.03.15-10.31.00:110][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2021.03.15-10.31.00:110][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2021.03.15-10.31.00:110][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2021.03.15-10.31.00:110][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2021.03.15-10.31.00:110][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2021.03.15-10.31.00:110][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/SBSGAME/Desktop/Share/Unreal/Unreal1/ARPG/ARPG/Saved/Config/Windows/Engine.ini]
+[2021.03.15-10.31.00:110][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2021.03.15-10.31.00:110][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2021.03.15-10.31.00:110][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2021.03.15-10.31.00:110][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2021.03.15-10.31.00:110][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2021.03.15-10.31.00:110][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2021.03.15-10.31.00:110][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
+[2021.03.15-10.31.00:110][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2021.03.15-10.31.00:110][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2021.03.15-10.31.00:110][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2021.03.15-10.31.00:110][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2021.03.15-10.31.00:110][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2021.03.15-10.31.00:110][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2021.03.15-10.31.00:110][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/SBSGAME/Desktop/Share/Unreal/Unreal1/ARPG/ARPG/Saved/Config/Windows/Engine.ini]
+[2021.03.15-10.31.00:110][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/SBSGAME/Desktop/Share/Unreal/Unreal1/ARPG/ARPG/Saved/Config/Windows/Engine.ini]
+[2021.03.15-10.31.00:117][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/SBSGAME/Desktop/Share/Unreal/Unreal1/ARPG/ARPG/Saved/Config/Windows/Scalability.ini]
+[2021.03.15-10.31.00:117][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.03.15-10.31.00:117][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.03.15-10.31.00:117][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/SBSGAME/Desktop/Share/Unreal/Unreal1/ARPG/ARPG/Saved/Config/Windows/Scalability.ini]
+[2021.03.15-10.31.00:117][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2021.03.15-10.31.00:117][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/SBSGAME/Desktop/Share/Unreal/Unreal1/ARPG/ARPG/Saved/Config/Windows/Scalability.ini]
+[2021.03.15-10.31.00:117][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.03.15-10.31.00:117][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.03.15-10.31.00:117][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.03.15-10.31.00:117][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.03.15-10.31.00:117][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.03.15-10.31.00:117][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.03.15-10.31.00:117][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.03.15-10.31.00:117][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.03.15-10.31.00:117][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.03.15-10.31.00:117][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.03.15-10.31.00:117][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.03.15-10.31.00:117][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.03.15-10.31.00:117][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.03.15-10.31.00:117][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.03.15-10.31.00:117][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.03.15-10.31.00:117][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.03.15-10.31.00:117][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.03.15-10.31.00:117][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.03.15-10.31.00:117][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/SBSGAME/Desktop/Share/Unreal/Unreal1/ARPG/ARPG/Saved/Config/Windows/Scalability.ini]
+[2021.03.15-10.31.00:117][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.03.15-10.31.00:117][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.03.15-10.31.00:117][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.03.15-10.31.00:117][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.03.15-10.31.00:117][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.03.15-10.31.00:117][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2021.03.15-10.31.00:117][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.03.15-10.31.00:117][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2021.03.15-10.31.00:117][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.03.15-10.31.00:117][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.03.15-10.31.00:117][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.03.15-10.31.00:117][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.03.15-10.31.00:117][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.03.15-10.31.00:117][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.03.15-10.31.00:117][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.03.15-10.31.00:117][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.03.15-10.31.00:118][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.03.15-10.31.00:118][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.03.15-10.31.00:118][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.03.15-10.31.00:118][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.03.15-10.31.00:118][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.03.15-10.31.00:118][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.03.15-10.31.00:118][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.03.15-10.31.00:118][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.03.15-10.31.00:118][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.03.15-10.31.00:118][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.03.15-10.31.00:118][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.03.15-10.31.00:118][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.03.15-10.31.00:118][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.03.15-10.31.00:118][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.03.15-10.31.00:118][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/SBSGAME/Desktop/Share/Unreal/Unreal1/ARPG/ARPG/Saved/Config/Windows/Scalability.ini]
+[2021.03.15-10.31.00:118][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.03.15-10.31.00:118][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.03.15-10.31.00:118][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.03.15-10.31.00:118][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.03.15-10.31.00:118][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.03.15-10.31.00:118][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.03.15-10.31.00:118][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.03.15-10.31.00:118][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.03.15-10.31.00:118][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/SBSGAME/Desktop/Share/Unreal/Unreal1/ARPG/ARPG/Saved/Config/Windows/Scalability.ini]
+[2021.03.15-10.31.00:118][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.03.15-10.31.00:118][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.03.15-10.31.00:118][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2021.03.15-10.31.00:118][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.03.15-10.31.00:118][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.03.15-10.31.00:118][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.03.15-10.31.00:118][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.03.15-10.31.00:118][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.03.15-10.31.00:118][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.03.15-10.31.00:118][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.03.15-10.31.00:118][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2021.03.15-10.31.00:118][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.03.15-10.31.00:118][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.03.15-10.31.00:118][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/SBSGAME/Desktop/Share/Unreal/Unreal1/ARPG/ARPG/Saved/Config/Windows/Scalability.ini]
+[2021.03.15-10.31.00:118][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.03.15-10.31.00:118][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.03.15-10.31.00:118][  0]LogInit: Selected Device Profile: [Windows]
+[2021.03.15-10.31.00:118][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2021.03.15-10.31.00:120][  0]LogHAL: Display: Platform has ~ 16 GB [17092837376 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2021.03.15-10.31.00:120][  0]LogInit: Going up to parent DeviceProfile []
+[2021.03.15-10.31.00:120][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/SBSGAME/Desktop/Share/Unreal/Unreal1/ARPG/ARPG/Saved/Config/Windows/Scalability.ini]
+[2021.03.15-10.31.00:120][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.03.15-10.31.00:120][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.03.15-10.31.00:120][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/SBSGAME/Desktop/Share/Unreal/Unreal1/ARPG/ARPG/Saved/Config/Windows/Scalability.ini]
+[2021.03.15-10.31.00:120][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2021.03.15-10.31.00:120][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/SBSGAME/Desktop/Share/Unreal/Unreal1/ARPG/ARPG/Saved/Config/Windows/Scalability.ini]
+[2021.03.15-10.31.00:120][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.03.15-10.31.00:120][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.03.15-10.31.00:120][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.03.15-10.31.00:120][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.03.15-10.31.00:120][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.03.15-10.31.00:120][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.03.15-10.31.00:120][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.03.15-10.31.00:120][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.03.15-10.31.00:120][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.03.15-10.31.00:120][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.03.15-10.31.00:120][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.03.15-10.31.00:120][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.03.15-10.31.00:120][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.03.15-10.31.00:120][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.03.15-10.31.00:120][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.03.15-10.31.00:120][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.03.15-10.31.00:120][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.03.15-10.31.00:120][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.03.15-10.31.00:120][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/SBSGAME/Desktop/Share/Unreal/Unreal1/ARPG/ARPG/Saved/Config/Windows/Scalability.ini]
+[2021.03.15-10.31.00:120][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.03.15-10.31.00:120][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.03.15-10.31.00:120][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.03.15-10.31.00:120][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.03.15-10.31.00:120][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.03.15-10.31.00:120][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2021.03.15-10.31.00:120][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.03.15-10.31.00:120][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2021.03.15-10.31.00:120][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.03.15-10.31.00:120][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.03.15-10.31.00:120][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.03.15-10.31.00:120][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.03.15-10.31.00:120][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.03.15-10.31.00:120][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.03.15-10.31.00:120][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.03.15-10.31.00:120][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.03.15-10.31.00:120][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.03.15-10.31.00:120][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.03.15-10.31.00:120][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.03.15-10.31.00:120][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.03.15-10.31.00:120][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.03.15-10.31.00:120][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.03.15-10.31.00:120][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.03.15-10.31.00:120][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.03.15-10.31.00:120][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.03.15-10.31.00:120][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.03.15-10.31.00:120][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.03.15-10.31.00:120][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.03.15-10.31.00:120][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.03.15-10.31.00:120][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.03.15-10.31.00:120][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/SBSGAME/Desktop/Share/Unreal/Unreal1/ARPG/ARPG/Saved/Config/Windows/Scalability.ini]
+[2021.03.15-10.31.00:120][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.03.15-10.31.00:120][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.03.15-10.31.00:120][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.03.15-10.31.00:120][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.03.15-10.31.00:120][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.03.15-10.31.00:120][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.03.15-10.31.00:120][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.03.15-10.31.00:120][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.03.15-10.31.00:120][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/SBSGAME/Desktop/Share/Unreal/Unreal1/ARPG/ARPG/Saved/Config/Windows/Scalability.ini]
+[2021.03.15-10.31.00:120][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.03.15-10.31.00:120][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.03.15-10.31.00:120][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2021.03.15-10.31.00:120][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.03.15-10.31.00:120][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.03.15-10.31.00:120][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.03.15-10.31.00:120][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.03.15-10.31.00:120][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.03.15-10.31.00:120][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.03.15-10.31.00:120][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.03.15-10.31.00:120][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2021.03.15-10.31.00:120][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.03.15-10.31.00:121][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.03.15-10.31.00:121][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/SBSGAME/Desktop/Share/Unreal/Unreal1/ARPG/ARPG/Saved/Config/Windows/Scalability.ini]
+[2021.03.15-10.31.00:121][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.03.15-10.31.00:121][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.03.15-10.31.00:121][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2021.03.15-10.31.00:121][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2021.03.15-10.31.00:121][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2021.03.15-10.31.00:121][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/SBSGAME/Desktop/Share/Unreal/Unreal1/ARPG/ARPG/Saved/Config/Windows/Engine.ini]
+[2021.03.15-10.31.00:121][  0]LogInit: Computer: DESKTOP-34S4LQ9
+[2021.03.15-10.31.00:121][  0]LogInit: User: SBSGAME
+[2021.03.15-10.31.00:121][  0]LogInit: CPU Page size=4096, Cores=6
+[2021.03.15-10.31.00:121][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2021.03.15-10.31.00:121][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2021.03.15-10.31.00:121][  0]LogMemory: Platform Memory Stats for Windows
+[2021.03.15-10.31.00:121][  0]LogMemory: Process Physical Memory: 104.77 MB used, 104.77 MB peak
+[2021.03.15-10.31.00:121][  0]LogMemory: Process Virtual Memory: 93.29 MB used, 93.29 MB peak
+[2021.03.15-10.31.00:121][  0]LogMemory: Physical Memory: 5751.04 MB used,  10549.96 MB free, 16301.00 MB total
+[2021.03.15-10.31.00:121][  0]LogMemory: Virtual Memory: 4698.10 MB used,  134213032.00 MB free, 134217728.00 MB total
+[2021.03.15-10.31.00:123][  0]LogWindows: WindowsPlatformFeatures enabled
+[2021.03.15-10.31.00:137][  0]LogInit: Using OS detected language (ko-KR).
+[2021.03.15-10.31.00:137][  0]LogInit: Using OS detected locale (ko-KR).
+[2021.03.15-10.31.00:137][  0]LogTextLocalizationManager: No specific localization for 'ko-KR' exists, so the 'ko' localization will be used.
+[2021.03.15-10.31.00:192][  0]LogInit: Setting process to per monitor DPI aware
+[2021.03.15-10.31.00:238][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2021.03.15-10.31.00:238][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2021.03.15-10.31.00:361][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2021.03.15-10.31.00:361][  0]LogD3D11RHI: D3D11 adapters:
+[2021.03.15-10.31.00:416][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1050' (Feature Level 11_0)
+[2021.03.15-10.31.00:416][  0]LogD3D11RHI:       1977/0/8150 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2021.03.15-10.31.00:418][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2021.03.15-10.31.00:418][  0]LogD3D11RHI:       0/0/8150 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2021.03.15-10.31.00:418][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2021.03.15-10.31.00:422][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2021.03.15-10.31.00:422][  0]LogD3D11RHI:     GPU DeviceId: 0x1c81 (for the marketing name, search the web for "GPU Device Id")
+[2021.03.15-10.31.00:422][  0]LogWindows: EnumDisplayDevices:
+[2021.03.15-10.31.00:422][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1050' (P:1 D:1)
+[2021.03.15-10.31.00:422][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1050' (P:0 D:0)
+[2021.03.15-10.31.00:422][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1050' (P:0 D:1)
+[2021.03.15-10.31.00:423][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1050' (P:0 D:0)
+[2021.03.15-10.31.00:423][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2021.03.15-10.31.00:423][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1050
+[2021.03.15-10.31.00:423][  0]LogD3D11RHI:   Driver Version: 456.71 (internal:27.21.14.5671, unified:456.71)
+[2021.03.15-10.31.00:423][  0]LogD3D11RHI:      Driver Date: 9-30-2020
+[2021.03.15-10.31.00:423][  0]LogRHI: Texture pool is 1384 MB (70% of 1977 MB)
+[2021.03.15-10.31.00:466][  0]LogD3D11RHI: Async texture creation enabled
+[2021.03.15-10.31.00:477][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2021.03.15-10.31.00:730][  0]LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
+[2021.03.15-10.31.00:736][  0]LogTemp: Display: Module 'MacClientTargetPlatform' loaded TargetPlatform 'MacClient'
+[2021.03.15-10.31.00:744][  0]LogTemp: Display: Module 'MacNoEditorTargetPlatform' loaded TargetPlatform 'MacNoEditor'
+[2021.03.15-10.31.00:750][  0]LogTemp: Display: Module 'MacServerTargetPlatform' loaded TargetPlatform 'MacServer'
+[2021.03.15-10.31.00:757][  0]LogTemp: Display: Module 'MacTargetPlatform' loaded TargetPlatform 'Mac'
+[2021.03.15-10.31.00:764][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
+[2021.03.15-10.31.00:771][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
+[2021.03.15-10.31.00:779][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
+[2021.03.15-10.31.00:783][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
+[2021.03.15-10.31.00:817][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
+[2021.03.15-10.31.00:817][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
+[2021.03.15-10.31.00:817][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
+[2021.03.15-10.31.00:817][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
+[2021.03.15-10.31.00:817][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
+[2021.03.15-10.31.00:817][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
+[2021.03.15-10.31.00:817][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
+[2021.03.15-10.31.00:817][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
+[2021.03.15-10.31.00:817][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
+[2021.03.15-10.31.00:817][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
+[2021.03.15-10.31.00:817][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
+[2021.03.15-10.31.00:817][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
+[2021.03.15-10.31.00:817][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
+[2021.03.15-10.31.00:817][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
+[2021.03.15-10.31.00:817][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
+[2021.03.15-10.31.00:817][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
+[2021.03.15-10.31.00:817][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
+[2021.03.15-10.31.00:817][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
+[2021.03.15-10.31.00:819][  0]LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
+[2021.03.15-10.31.00:838][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOSClient'
+[2021.03.15-10.31.00:838][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOS'
+[2021.03.15-10.31.00:853][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOSClient'
+[2021.03.15-10.31.00:853][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOS'
+[2021.03.15-10.31.00:861][  0]LogTemp: Display: Module 'LinuxClientTargetPlatform' loaded TargetPlatform 'LinuxClient'
+[2021.03.15-10.31.00:869][  0]LogTemp: Display: Module 'LinuxNoEditorTargetPlatform' loaded TargetPlatform 'LinuxNoEditor'
+[2021.03.15-10.31.00:876][  0]LogTemp: Display: Module 'LinuxServerTargetPlatform' loaded TargetPlatform 'LinuxServer'
+[2021.03.15-10.31.00:882][  0]LogTemp: Display: Module 'LinuxTargetPlatform' loaded TargetPlatform 'Linux'
+[2021.03.15-10.31.00:905][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'Lumin'
+[2021.03.15-10.31.00:905][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'LuminClient'
+[2021.03.15-10.31.00:905][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2021.03.15-10.31.00:912][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2021.03.15-10.31.01:022][  0]LogShaderCompilers: Guid format shader working directory is -23 characters bigger than the processId version (../../../../../../Users/SBSGAME/Desktop/Share/Unreal/Unreal1/ARPG/ARPG/Intermediate/Shaders/WorkingDirectory/16472/).
+[2021.03.15-10.31.01:022][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/SBSGAME/AppData/Local/Temp/UnrealShaderWorkingDir/2AB6C23C4BC313EE42CAAFA1B6B3A5E4/'.
+[2021.03.15-10.31.01:024][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2021.03.15-10.31.01:024][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2021.03.15-10.31.01:024][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2021.03.15-10.31.01:503][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2021.03.15-10.31.01:563][  0]LogDerivedDataCache: Loaded boot cache 0.06s 84MB C:/Users/SBSGAME/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc.
+[2021.03.15-10.31.01:563][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/SBSGAME/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc
+[2021.03.15-10.31.01:563][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/SBSGAME/Desktop/Share/Unreal/Unreal1/ARPG/ARPG/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2021.03.15-10.31.01:563][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2021.03.15-10.31.01:563][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/SBSGAME/Desktop/Share/Unreal/Unreal1/ARPG/ARPG/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.03.15-10.31.01:563][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2021.03.15-10.31.01:573][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2021.03.15-10.31.01:573][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.03.15-10.31.01:573][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2021.03.15-10.31.01:575][  0]LogDerivedDataCache: Using Local data cache path C:/Users/SBSGAME/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2021.03.15-10.31.01:575][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2021.03.15-10.31.01:575][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2021.03.15-10.31.01:593][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2021.03.15-10.31.01:595][  0]LogSlate: Using FreeType 2.6.0
+[2021.03.15-10.31.01:595][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2021.03.15-10.31.01:637][  0]LogAssetRegistry: FAssetRegistry took 0.0018 seconds to start up
+[2021.03.15-10.31.01:847][  0]LogInit: Selected Device Profile: [Windows]
+[2021.03.15-10.31.01:974][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2021.03.15-10.31.01:974][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2021.03.15-10.31.01:974][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2021.03.15-10.31.01:974][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2021.03.15-10.31.01:974][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2021.03.15-10.31.01:981][  0]LogNetVersion: ARPG 1.0.0, NetCL: 8386587, EngineNetVer: 11, GameNetVer: 0 (Checksum: 3147064758)
+[2021.03.15-10.31.02:345][  0]LogPackageLocalizationCache: Processed 12 localized package path(s) for 1 prioritized culture(s) in 0.060885 seconds
+[2021.03.15-10.31.02:356][  0]LogUObjectArray: 43444 objects as part of root set at end of initial load.
+[2021.03.15-10.31.02:356][  0]LogUObjectAllocator: 7548648 out of 0 bytes used by permanent object pool.
+[2021.03.15-10.31.02:356][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2021.03.15-10.31.03:051][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2021.03.15-10.31.03:148][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2021.03.15-10.31.03:220][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2021.03.15-10.31.03:220][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2021.03.15-10.31.03:221][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2021.03.15-10.31.03:222][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2021.03.15-10.31.03:287][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2021.03.15-10.31.03:377][  0]LogOcInput: OculusInput pre-init called
+[2021.03.15-10.31.03:920][  0]LogEngine: Initializing Engine...
+[2021.03.15-10.31.03:921][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2021.03.15-10.31.03:922][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2021.03.15-10.31.04:129][  0]LogInit: Initializing FReadOnlyCVARCache
+[2021.03.15-10.31.04:141][  0]LogAIModule: Creating AISystem for world Untitled
+[2021.03.15-10.31.04:163][  0]LogInit: XAudio2 using 'EPSON PJ(NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2021.03.15-10.31.04:175][  0]LogInit: FAudioDevice initialized.
+[2021.03.15-10.31.04:175][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2021.03.15-10.31.05:661][  0]LogDerivedDataCache: Saved boot cache 1.48s 81MB C:/Users/SBSGAME/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc.
+[2021.03.15-10.31.05:667][  0]LogInit: Texture streaming: Enabled
+[2021.03.15-10.31.05:690][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2021.03.15-10.31.05:690][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2021.03.15-10.31.05:690][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2021.03.15-10.31.05:729][  0]LogInit: Transaction tracking system initialized
+[2021.03.15-10.31.05:764][  0]BlueprintLog: New page: 에디터 로드
+[2021.03.15-10.31.05:855][  0]LocalizationService: 현지화 서비스가 비활성화되었습니다.
+[2021.03.15-10.31.06:148][  0]LogFileCache: Scanning file cache for directory 'C:/Users/SBSGAME/Desktop/Share/Unreal/Unreal1/ARPG/ARPG/Content/' took 0.00s
+[2021.03.15-10.31.06:148][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2021.03.15-10.31.06:148][  0]LogCook: Display: Mobile HDR setting 1
+[2021.03.15-10.31.06:303][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2021.03.15-10.31.06:303][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.03.15-10.31.06:303][  0]LightingResults: New page: 라이팅 빌드
+[2021.03.15-10.31.06:305][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2021.03.15-10.31.06:305][  0]MapCheck: New page: 맵 체크
+[2021.03.15-10.31.06:305][  0]LightingResults: New page: 라이팅 빌드
+[2021.03.15-10.31.06:329][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.46ms
+[2021.03.15-10.31.06:382][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2021.03.15-10.31.06:385][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.03.15-10.31.06:409][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.61ms
+[2021.03.15-10.31.06:409][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.03.15-10.31.06:409][  0]MapCheck: 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 0.109ms.
+[2021.03.15-10.31.06:409][  0]LogFileHelpers: Loading map 'Template_Default' took 0.107
+[2021.03.15-10.31.06:497][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.15-10.31.06:503][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.15-10.31.06:508][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.15-10.31.06:513][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.15-10.31.06:560][  0]LogCollectionManager: Loaded 0 collections in 0.001211 seconds
+[2021.03.15-10.31.06:566][  0]LogFileCache: Scanning file cache for directory 'C:/Users/SBSGAME/Desktop/Share/Unreal/Unreal1/ARPG/ARPG/Saved/Collections/' took 0.00s
+[2021.03.15-10.31.06:566][  0]LogFileCache: Scanning file cache for directory 'C:/Users/SBSGAME/Desktop/Share/Unreal/Unreal1/ARPG/ARPG/Content/Developers/SBSGAME/Collections/' took 0.00s
+[2021.03.15-10.31.06:566][  0]LogFileCache: Scanning file cache for directory 'C:/Users/SBSGAME/Desktop/Share/Unreal/Unreal1/ARPG/ARPG/Content/Collections/' took 0.00s
+[2021.03.15-10.31.06:566][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2021.03.15-10.31.06:572][  0]LogContentBrowser: Native class hierarchy populated in 0.0064 seconds. Added 2865 classes and 684 folders.
+[2021.03.15-10.31.06:577][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2021.03.15-10.31.52:942][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2021.03.15-10.31.53:916][  0]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2021.03.15-10.31.53:947][  0]LogSlate: Took 0.000259 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2021.03.15-10.31.53:952][  0]LogSlate: Took 0.004408 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/NanumGothic.ttf' (4243K)
+[2021.03.15-10.31.53:962][  0]LogSlate: Took 0.004697 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/NanumGothicBold.ttf' (4188K)
+[2021.03.15-10.31.53:963][  0]LogSlate: Took 0.000342 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2021.03.15-10.31.53:965][  0]LogSlate: Took 0.000200 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2021.03.15-10.31.53:965][  0]LogSlate: Took 0.000163 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2021.03.15-10.31.54:003][  0]LogSlate: Took 0.001841 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/NanumGothicExtraBold.ttf' (4074K)
+[2021.03.15-10.31.54:053][  0]LogRenderer: Reallocating scene render targets to support 1136x580 Format 10 NumSamples 1 (Frame:1).
+[2021.03.15-10.31.54:141][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2021.03.15-10.31.54:141][  0]LogLoad: (Engine Initialization) Total time: 55.50 seconds
+[2021.03.15-10.31.54:142][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2021.03.15-10.31.54:245][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2021.03.15-10.32.10:905][459]LogAssetRegistry: Asset discovery search completed in 69.2691 seconds
+[2021.03.15-10.32.10:915][459]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000014 seconds (found 0 objects)
+[2021.03.15-10.32.10:916][459]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000490 seconds (updated 0 objects)
+[2021.03.15-10.32.28:283][511]LogSlate: Took 0.000329 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2021.03.15-10.32.30:950][519]LogDirectoryWatcher: A directory notification failed for 'C:/Users/SBSGAME/Desktop/Share/Unreal/Unreal1/ARPG/ARPG/Content/Collections/' because it could not be accessed. Aborting watch request...
+[2021.03.15-10.32.30:950][519]LogDirectoryWatcher: A directory notification failed for 'C:/Users/SBSGAME/Desktop/Share/Unreal/Unreal1/ARPG/ARPG/Content/Developers/SBSGAME/Collections/' because it could not be accessed. Aborting watch request...
+[2021.03.15-10.32.30:950][519]LogDirectoryWatcher: A directory notification failed for 'C:/Users/SBSGAME/Desktop/Share/Unreal/Unreal1/ARPG/ARPG/Saved/Collections/' because it could not be accessed. Aborting watch request...
+[2021.03.15-10.32.55:664][776]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2021.03.15-10.33.10:716][415]LogSlate: Took 0.000147 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2021.03.15-10.33.11:060][415]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/GKnight/Animation/ANIM_GKnight_Pose.ANIM_GKnight_Pose
+[2021.03.15-10.33.15:105][415]LogAnimationCompression: Recompressing (AnimSequence /Game/GKnight/Animation/ANIM_GKnight_Pose.ANIM_GKnight_Pose) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2021.03.15-10.33.33:624][415]LogTexture: Display: 텍스처 빌드: T_CoatOfArm_Zero (AutoDXT, 128X128)
+[2021.03.15-10.33.33:624][415]LogTexture: Display: 텍스처 빌드: T_GothicKnight_Skirt_ID (AutoDXT, 1024X1024)
+[2021.03.15-10.33.33:626][415]LogTexture: Display: 텍스처 빌드: T_Pattern_E (AutoDXT, 512X512)
+[2021.03.15-10.33.33:626][415]LogTexture: Display: 텍스처 빌드: T_Denim_d (AutoDXT, 512X512)
+[2021.03.15-10.33.33:626][415]LogTexture: Display: 텍스처 빌드: T_GothicKnight_SkirtB_D (AutoDXT, 1024X1024)
+[2021.03.15-10.33.33:626][415]LogTexture: Display: 텍스처 빌드: T_GothicKnight_Skirt_N (BC5, 1024X1024)
+[2021.03.15-10.33.33:626][415]LogTexture: Display: 텍스처 빌드: T_GothicKnight_CapeB_D (AutoDXT, 2048X2048)
+[2021.03.15-10.33.33:626][415]LogTexture: Display: 텍스처 빌드: T_GothicKnight_Cape_ORM (AutoDXT, 2048X2048)
+[2021.03.15-10.33.33:797][415]LogTexture: Display: 텍스처 빌드: T_GothicKnight_Cape_ID (AutoDXT, 2048X2048)
+[2021.03.15-10.33.33:797][415]LogTexture: Display: 텍스처 빌드: T_GothicKnight_Cape_N (BC5, 2048X2048)
+[2021.03.15-10.33.33:797][415]LogTexture: Display: 텍스처 빌드: T_GothicKnight_Helmet_N (BC5, 2048X2048)
+[2021.03.15-10.33.33:797][415]LogTexture: Display: 텍스처 빌드: T_GothicKnight_Helmet_ID (AutoDXT, 2048X2048)
+[2021.03.15-10.33.33:797][415]LogTexture: Display: 텍스처 빌드: T_GothicKnight_Pants_ORM (AutoDXT, 2048X2048)
+[2021.03.15-10.33.33:797][415]LogTexture: Display: 텍스처 빌드: T_GothicKnight_Pants_N (BC5, 2048X2048)
+[2021.03.15-10.33.33:814][415]LogTexture: Display: 텍스처 빌드: T_GothicKnight_Pants_ID (AutoDXT, 2048X2048)
+[2021.03.15-10.33.33:815][415]LogTexture: Display: 텍스처 빌드: T_GothicKnight_Pants_D (AutoDXT, 2048X2048)
+[2021.03.15-10.33.33:815][415]LogTexture: Display: 텍스처 빌드: T_GothicKnight_Helmet_ORM (AutoDXT, 2048X2048)
+[2021.03.15-10.33.33:815][415]LogTexture: Display: 텍스처 빌드: T_BaseMaterial_v01_N (BC5, 1024X1024)
+[2021.03.15-10.33.34:268][415]LogTexture: Display: 텍스처 빌드: T_GothicKnight_Helmet_D (AutoDXT, 2048X2048)
+[2021.03.15-10.33.34:316][415]LogTexture: Display: 텍스처 빌드: T_BaseMaterial_v01_D (AutoDXT, 1024X1024)
+[2021.03.15-10.33.35:749][415]LogTexture: Display: 텍스처 빌드: T_GothicKnight_Glove_ORM (AutoDXT, 2048X2048)
+[2021.03.15-10.33.35:749][415]LogTexture: Display: 텍스처 빌드: T_GothicKnight_Glove_N (BC5, 2048X2048)
+[2021.03.15-10.33.35:749][415]LogTexture: Display: 텍스처 빌드: T_GothicKnight_Glove_ID (AutoDXT, 2048X2048)
+[2021.03.15-10.33.35:790][415]LogTexture: Display: 텍스처 빌드: T_BaseMaterial_v01_ORM (AutoDXT, 1024X1024)
+[2021.03.15-10.33.36:808][415]LogTexture: Display: 텍스처 빌드: T_GothicKnight_Glove_D (AutoDXT, 2048X2048)
+[2021.03.15-10.33.36:814][415]LogTexture: Display: 텍스처 빌드: checker (AutoDXT, 512X512)
+[2021.03.15-10.33.36:843][415]LogTexture: Display: 텍스처 빌드: T_BaseMaterial_v01_ID (AutoDXT, 1024X1024)
+[2021.03.15-10.33.37:040][415]LogTexture: Display: 텍스처 빌드: T_FlatMid (AutoDXT, 512X512)
+[2021.03.15-10.33.37:051][415]LogTexture: Display: 텍스처 빌드: T_CoatOfArm_02 (AutoDXT, 1024X1024)
+[2021.03.15-10.33.37:282][415]LogTexture: Display: 텍스처 빌드: T_CoatOfArm_04_1 (AutoDXT, 512X512)
+[2021.03.15-10.33.37:743][415]LogTexture: Display: 텍스처 빌드: T_GothicKnight_Body_ORM (AutoDXT, 2048X2048)
+[2021.03.15-10.33.37:744][415]LogTexture: Display: 텍스처 빌드: T_GothicKnight_Body_N (BC5, 2048X2048)
+[2021.03.15-10.33.37:744][415]LogTexture: Display: 텍스처 빌드: T_GothicKnight_Body_ID (AutoDXT, 2048X2048)
+[2021.03.15-10.33.37:744][415]LogTexture: Display: 텍스처 빌드: T_GothicKnight_Body_D (AutoDXT, 2048X2048)
+[2021.03.15-10.33.37:754][415]LogTexture: Display: 텍스처 빌드: T_detailMap01_n (BC5, 256X256)
+[2021.03.15-10.33.37:822][415]LogMaterial: Display: Missing cached shader map for material M_MKT_MasterMaterial_v02, compiling. 
+[2021.03.15-10.33.44:520][415]LogTexture: Display: 텍스처 빌드: T_T_FurBear_N (BC5, 2048X2048)
+[2021.03.15-10.33.44:520][415]LogTexture: Display: 텍스처 빌드: T_T_FurBear_RMOC (AutoDXT, 2048X2048)
+[2021.03.15-10.33.44:544][415]LogTexture: Display: 텍스처 빌드: T_T_FurBear_H (AutoDXT, 2048X2048)
+[2021.03.15-10.33.44:544][415]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_1 (AutoDXT, 256X256)
+[2021.03.15-10.33.44:544][415]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_2 (AutoDXT, 64X64)
+[2021.03.15-10.33.44:544][415]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_1 (DXT1, 256X256)
+[2021.03.15-10.33.44:544][415]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_2 (DXT1, 64X64)
+[2021.03.15-10.33.44:544][415]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_0 (G8, 128X128)
+[2021.03.15-10.33.44:545][415]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_1 (G8, 32X32)
+[2021.03.15-10.33.44:545][415]LogTexture: Display: 텍스처 빌드: T_T_FurBear_D (AutoDXT, 2048X2048)
+[2021.03.15-10.33.44:545][415]LogTexture: Display: 텍스처 빌드: T_GothicKnight_Sword_ORM (AutoDXT, 512X2048)
+[2021.03.15-10.33.44:545][415]LogTexture: Display: 텍스처 빌드: T_GothicKnight_Sword_N (BC5, 512X2048)
+[2021.03.15-10.33.44:545][415]LogTexture: Display: 텍스처 빌드: T_GothicKnight_Sword_ID (AutoDXT, 512X2048)
+[2021.03.15-10.33.44:545][415]LogTexture: Display: 텍스처 빌드: T_GothicKnight_Sword_D (AutoDXT, 512X2048)
+[2021.03.15-10.33.44:545][415]LogTexture: Display: 텍스처 빌드: T_SecondReflection_mkt (RGBA16F, 1024X512)
+[2021.03.15-10.33.44:546][415]LogTexture: Display: 텍스처 빌드: T_EyeScleraBaseColor_mkt (AutoDXT, 1024X1024)
+[2021.03.15-10.33.44:546][415]LogTexture: Display: 텍스처 빌드: T_EyeNormals_MKT (BC5, 1024X1024)
+[2021.03.15-10.33.44:546][415]LogTexture: Display: 텍스처 빌드: T_EyeBaseColorA_mkt (AutoDXT, 1024X1024)
+[2021.03.15-10.33.44:546][415]LogTexture: Display: 텍스처 빌드: T_Eye_Wet_Normal_MKT (BC5, 1024X1024)
+[2021.03.15-10.33.44:546][415]LogTexture: Display: 텍스처 빌드: T_PoliceOfficer_04_skin_ORM (AutoDXT, 2048X2048)
+[2021.03.15-10.33.44:546][415]LogTexture: Display: 텍스처 빌드: T_PoliceOfficer_04_skin_N (BC5, 2048X2048)
+[2021.03.15-10.33.44:546][415]LogTexture: Display: 텍스처 빌드: T_GHead_B_ORM (AutoDXT, 2048X2048)
+[2021.03.15-10.33.44:546][415]LogTexture: Display: 텍스처 빌드: T_GHead_B_N (BC5, 2048X2048)
+[2021.03.15-10.33.44:547][415]LogTexture: Display: 텍스처 빌드: T_PoliceOfficer_04_skin_D (AutoDXT, 2048X2048)
+[2021.03.15-10.33.44:547][415]LogTexture: Display: 텍스처 빌드: T_GHead_B_D (AutoDXT, 2048X2048)
+[2021.03.15-10.33.44:547][415]LogTexture: Display: 텍스처 빌드: T_GothicKnight_CapeD_D (AutoDXT, 2048X2048)
+[2021.03.15-10.33.44:547][415]LogMaterial: Display: Missing cached shader map for material M_MKT_MasterMaterial_v02, compiling. 
+[2021.03.15-10.33.45:514][415]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 98
+[2021.03.15-10.33.45:514][415]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 88
+[2021.03.15-10.33.45:514][415]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 78
+[2021.03.15-10.33.45:514][415]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 68
+[2021.03.15-10.33.45:514][415]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 58
+[2021.03.15-10.33.45:514][415]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 48
+[2021.03.15-10.33.45:514][415]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 38
+[2021.03.15-10.33.45:514][415]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 28
+[2021.03.15-10.33.46:498][415]LogStaticMesh: SM_WP_GothicKnight_Sword 스태틱 메시 빌드중...
+[2021.03.15-10.33.46:740][415]LogStaticMesh: Built static mesh [0.26s] /Game/GKnight/Meshes/Weapon/SM_WP_GothicKnight_Sword.SM_WP_GothicKnight_Sword
+[2021.03.15-10.33.47:234][415]LogMaterial: Display: Missing cached shader map for material M_MKT_MasterMaterial_v02, compiling. 
+[2021.03.15-10.33.47:335][415]LogMaterial: Display: Missing cached shader map for material M_MKT_MasterMaterial_v02, compiling. 
+[2021.03.15-10.33.47:383][415]LogMaterial: Display: Missing cached shader map for material M_Master_FurAndHair, compiling. 
+[2021.03.15-10.33.47:497][415]LogMaterial: Display: Missing cached shader map for material M_env2, compiling. 
+[2021.03.15-10.33.47:542][415]LogSkeletalMesh: Building Skeletal Mesh SK_GothicKnight_VF...
+[2021.03.15-10.33.47:902][415]LogSkeletalMesh: Built Skeletal Mesh [0.36s] /Game/GKnight/Meshes/SK_GothicKnight_VF.SK_GothicKnight_VF
+[2021.03.15-10.33.47:903][415]LogSkeletalMesh: Building Skeletal Mesh SK_GothicKnight_VE...
+[2021.03.15-10.33.48:048][415]LogSkeletalMesh: Built Skeletal Mesh [0.14s] /Game/GKnight/Meshes/SK_GothicKnight_VE.SK_GothicKnight_VE
+[2021.03.15-10.33.48:049][415]LogSkeletalMesh: Building Skeletal Mesh SK_GothicKnight_VD...
+[2021.03.15-10.33.48:209][415]LogSkeletalMesh: Built Skeletal Mesh [0.16s] /Game/GKnight/Meshes/SK_GothicKnight_VD.SK_GothicKnight_VD
+[2021.03.15-10.33.48:210][415]LogSkeletalMesh: Building Skeletal Mesh SK_GothicKnight_VC...
+[2021.03.15-10.33.48:289][415]LogSkeletalMesh: Built Skeletal Mesh [0.08s] /Game/GKnight/Meshes/SK_GothicKnight_VC.SK_GothicKnight_VC
+[2021.03.15-10.33.48:290][415]LogSkeletalMesh: Building Skeletal Mesh SK_GothicKnight_VB...
+[2021.03.15-10.33.48:376][415]LogSkeletalMesh: Built Skeletal Mesh [0.09s] /Game/GKnight/Meshes/SK_GothicKnight_VB.SK_GothicKnight_VB
+[2021.03.15-10.33.48:377][415]LogSkeletalMesh: Building Skeletal Mesh SK_GothicKnight_VA...
+[2021.03.15-10.33.48:495][415]LogSkeletalMesh: Built Skeletal Mesh [0.12s] /Game/GKnight/Meshes/SK_GothicKnight_VA.SK_GothicKnight_VA
+[2021.03.15-10.33.48:496][415]LogSkeletalMesh: Building Skeletal Mesh SK_GothicKnight_Pants...
+[2021.03.15-10.33.48:505][415]LogSkeletalMesh: Built Skeletal Mesh [0.01s] /Game/GKnight/Meshes/Parts/SK_GothicKnight_Pants.SK_GothicKnight_Pants
+[2021.03.15-10.33.48:509][415]LogSkeletalMesh: Building Skeletal Mesh SK_GothicKnight_Helmet...
+[2021.03.15-10.33.48:512][415]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/GKnight/Meshes/Parts/SK_GothicKnight_Helmet.SK_GothicKnight_Helmet
+[2021.03.15-10.33.48:516][415]LogMaterial: Display: Missing cached shader map for material M_Skin_Master, compiling. 
+[2021.03.15-10.33.50:167][415]LogMaterial: Display: Missing cached shader map for material M_Eye, compiling. 
+[2021.03.15-10.33.50:284][415]LogSkeletalMesh: Building Skeletal Mesh SK_GothicKnight_Head...
+[2021.03.15-10.33.50:302][415]LogSkeletalMesh: Built Skeletal Mesh [0.02s] /Game/GKnight/Meshes/Parts/SK_GothicKnight_Head.SK_GothicKnight_Head
+[2021.03.15-10.33.50:303][415]LogSkeletalMesh: Building Skeletal Mesh SK_GothicKnight_Hands...
+[2021.03.15-10.33.50:325][415]LogSkeletalMesh: Built Skeletal Mesh [0.02s] /Game/GKnight/Meshes/Parts/SK_GothicKnight_Hands.SK_GothicKnight_Hands
+[2021.03.15-10.33.50:326][415]LogSkeletalMesh: Building Skeletal Mesh SK_GothicKnight_GloveFur...
+[2021.03.15-10.33.50:389][415]LogSkeletalMesh: Built Skeletal Mesh [0.06s] /Game/GKnight/Meshes/Parts/SK_GothicKnight_GloveFur.SK_GothicKnight_GloveFur
+[2021.03.15-10.33.50:390][415]LogSkeletalMesh: Building Skeletal Mesh SK_GothicKnight_Glove...
+[2021.03.15-10.33.50:424][415]LogSkeletalMesh: Built Skeletal Mesh [0.03s] /Game/GKnight/Meshes/Parts/SK_GothicKnight_Glove.SK_GothicKnight_Glove
+[2021.03.15-10.33.50:425][415]LogSkeletalMesh: Building Skeletal Mesh SK_GothicKnight_CapeFur...
+[2021.03.15-10.33.50:442][415]LogSkeletalMesh: Built Skeletal Mesh [0.02s] /Game/GKnight/Meshes/Parts/SK_GothicKnight_CapeFur.SK_GothicKnight_CapeFur
+[2021.03.15-10.33.50:451][415]LogSkeletalMesh: Building Skeletal Mesh SK_GothicKnight_Cape...
+[2021.03.15-10.33.50:454][415]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/GKnight/Meshes/Parts/SK_GothicKnight_Cape.SK_GothicKnight_Cape
+[2021.03.15-10.33.50:455][415]LogSkeletalMesh: Building Skeletal Mesh SK_GothicKnight_BodySkirtShort...
+[2021.03.15-10.33.50:485][415]LogSkeletalMesh: Built Skeletal Mesh [0.03s] /Game/GKnight/Meshes/Parts/SK_GothicKnight_BodySkirtShort.SK_GothicKnight_BodySkirtShort
+[2021.03.15-10.33.50:529][415]LogSkeletalMesh: Building Skeletal Mesh SK_GothicKnight_BodySkirtLong...
+[2021.03.15-10.33.50:561][415]LogSkeletalMesh: Built Skeletal Mesh [0.03s] /Game/GKnight/Meshes/Parts/SK_GothicKnight_BodySkirtLong.SK_GothicKnight_BodySkirtLong
+[2021.03.15-10.33.50:562][415]LogSkeletalMesh: Building Skeletal Mesh SK_GothicKnight_Body...
+[2021.03.15-10.33.50:584][415]LogSkeletalMesh: Built Skeletal Mesh [0.02s] /Game/GKnight/Meshes/Parts/SK_GothicKnight_Body.SK_GothicKnight_Body
+[2021.03.15-10.33.50:592][415]LogAIModule: Creating AISystem for world Overview
+[2021.03.15-10.33.50:786][415]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_2 (AutoDXT, 64X64)
+[2021.03.15-10.33.50:786][415]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_2 (DXT1, 64X64)
+[2021.03.15-10.33.50:786][415]LogTexture: Display: 텍스처 빌드: HQ_Lightmap0_1 (AutoDXT, 256X256)
+[2021.03.15-10.33.50:786][415]LogTexture: Display: 텍스처 빌드: ShadowMapTexture2D_0 (BGRA8, 256X128)
+[2021.03.15-10.33.50:787][415]LogTexture: Display: 텍스처 빌드: LQ_Lightmap_0_1 (DXT1, 256X256)
+[2021.03.15-10.33.50:787][415]LogMaterial: Display: Missing cached shader map for material M_env, compiling. 
+[2021.03.15-10.33.50:813][415]LogAIModule: Creating AISystem for world Showcase
+[2021.03.15-10.33.52:547][415]LogTexture: Display: 텍스처 빌드: T_GHead_E_ORM (AutoDXT, 2048X2048)
+[2021.03.15-10.33.52:547][415]LogTexture: Display: 텍스처 빌드: T_GHead_E_D (AutoDXT, 2048X2048)
+[2021.03.15-10.33.52:548][415]LogTexture: Display: 텍스처 빌드: T_GHead_E_N (BC5, 2048X2048)
+[2021.03.15-10.33.52:833][415]LogTexture: Display: 텍스처 빌드: T_EyeBaseColorB_mkt (AutoDXT, 1024X1024)
+[2021.03.15-10.33.52:833][415]LogTexture: Display: 텍스처 빌드: T_Eye_Wet_Normal (BC5, 1024X1024)
+[2021.03.15-10.33.52:864][415]LogStaticMesh: LP 스태틱 메시 빌드중...
+[2021.03.15-10.33.52:899][415]LogStaticMesh: Built static mesh [0.03s] /Game/GKnight/Materials/TestSphere/Mesh/LP.LP
+[2021.03.15-10.33.54:148][415]LogTexture: Display: 텍스처 빌드: T_CoatOfArm_05 (AutoDXT, 1024X1024)
+[2021.03.15-10.33.54:149][415]LogTexture: Display: 텍스처 빌드: T_GothicKnight_CapeC_D (AutoDXT, 2048X2048)
+[2021.03.15-10.33.55:267][415]LogTexture: Display: 텍스처 빌드: T_GothicKnight_Cape_D (AutoDXT, 2048X2048)
+[2021.03.15-10.33.55:589][415]LogTexture: Display: 텍스처 빌드: T_GothicKnight_Skirt_D (AutoDXT, 1024X1024)
+[2021.03.15-10.33.55:817][415]LogTexture: Display: 텍스처 빌드: T_Blue (AutoDXT, 512X512)
+[2021.03.15-10.33.55:818][415]LogTexture: Display: 텍스처 빌드: T_Pattern_A (AutoDXT, 512X512)
+[2021.03.15-10.33.55:818][415]LogTexture: Display: 텍스처 빌드: T_Pattern_B (AutoDXT, 512X512)
+[2021.03.15-10.33.55:963][415]LogTexture: Display: 텍스처 빌드: T_Pattern_D (AutoDXT, 512X512)
+[2021.03.15-10.33.55:964][415]LogTexture: Display: 텍스처 빌드: T_Pattern_F (AutoDXT, 512X512)
+[2021.03.15-10.33.56:500][415]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 1023
+[2021.03.15-10.33.56:500][415]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 1013
+[2021.03.15-10.33.56:777][415]LogUObjectHash: Compacting FUObjectHashTables data took   5.61ms
+[2021.03.15-10.33.56:777][415]LogMetaData: Removing '/Game/Resources/PlayerCharacter/GKnight/Maps/Overview.SKEL_Overview_C' ref from Metadata '/Game/GKnight/Maps/Overview.PackageMetaData'
+[2021.03.15-10.33.56:778][415]LogMetaData: Removing '/Game/Resources/PlayerCharacter/GKnight/Maps/Overview.Overview_C' ref from Metadata '/Game/GKnight/Maps/Overview.PackageMetaData'
+[2021.03.15-10.33.56:778][415]LogMetaData: Removing '/Game/Resources/PlayerCharacter/GKnight/Maps/Overview.Overview:PersistentLevel.Overview.EventGraph.K2Node_Event_0' ref from Metadata '/Game/GKnight/Maps/Overview.PackageMetaData'
+[2021.03.15-10.33.56:778][415]LogMetaData: Removing '/Game/Resources/PlayerCharacter/GKnight/Maps/Overview.Overview:PersistentLevel.Overview.EventGraph.K2Node_Event_1' ref from Metadata '/Game/GKnight/Maps/Overview.PackageMetaData'
+[2021.03.15-10.33.56:853][415]LogUObjectHash: Compacting FUObjectHashTables data took   4.42ms
+[2021.03.15-10.33.56:854][415]LogMetaData: Removing '/Game/Resources/PlayerCharacter/GKnight/Maps/Showcase.SKEL_Showcase_C' ref from Metadata '/Game/GKnight/Maps/Showcase.PackageMetaData'
+[2021.03.15-10.33.56:854][415]LogMetaData: Removing '/Game/Resources/PlayerCharacter/GKnight/Maps/Showcase.Showcase_C' ref from Metadata '/Game/GKnight/Maps/Showcase.PackageMetaData'
+[2021.03.15-10.33.56:854][415]LogMetaData: Removing '/Game/Resources/PlayerCharacter/GKnight/Maps/Showcase.Showcase:PersistentLevel.Showcase.EventGraph.K2Node_Event_0' ref from Metadata '/Game/GKnight/Maps/Showcase.PackageMetaData'
+[2021.03.15-10.33.56:855][415]LogMetaData: Removing '/Game/Resources/PlayerCharacter/GKnight/Maps/Showcase.Showcase:PersistentLevel.Showcase.EventGraph.K2Node_Event_1' ref from Metadata '/Game/GKnight/Maps/Showcase.PackageMetaData'
+[2021.03.15-10.33.57:200][415]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 1003
+[2021.03.15-10.33.57:420][415]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 993
+[2021.03.15-10.33.57:636][415]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 983
+[2021.03.15-10.33.58:950][415]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 973
+[2021.03.15-10.33.58:981][415]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 963
+[2021.03.15-10.34.02:251][415]LogSavePackage: Moving '../../../../../../Users/SBSGAME/Desktop/Share/Unreal/Unreal1/ARPG/ARPG/Saved/Showcase_BuiltData2C0E99624B1F9A98D5C246AD49EAD240.tmp' to '../../../../../../Users/SBSGAME/Desktop/Share/Unreal/Unreal1/ARPG/ARPG/Content/Resources/PlayerCharacter/GKnight/Maps/Showcase_BuiltData.uasset'
+[2021.03.15-10.34.02:356][415]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 953
+[2021.03.15-10.34.02:356][415]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 943
+[2021.03.15-10.34.02:367][415]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 933
+[2021.03.15-10.34.02:367][415]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 923
+[2021.03.15-10.34.02:395][415]LogSavePackage: Moving '../../../../../../Users/SBSGAME/Desktop/Share/Unreal/Unreal1/ARPG/ARPG/Saved/Overview_BuiltData75D25E5741A1D3439B1A43B47BEB192E.tmp' to '../../../../../../Users/SBSGAME/Desktop/Share/Unreal/Unreal1/ARPG/ARPG/Content/Resources/PlayerCharacter/GKnight/Maps/Overview_BuiltData.uasset'
+[2021.03.15-10.34.02:481][415]LogSavePackage: Moving '../../../../../../Users/SBSGAME/Desktop/Share/Unreal/Unreal1/ARPG/ARPG/Saved/ANIM_GKnight_Pose3241D8B84972E26010DA51B54BE4A58D.tmp' to '../../../../../../Users/SBSGAME/Desktop/Share/Unreal/Unreal1/ARPG/ARPG/Content/Resources/PlayerCharacter/GKnight/Animation/ANIM_GKnight_Pose.uasset'
+[2021.03.15-10.34.02:562][415]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 913
+[2021.03.15-10.34.02:569][415]LogUObjectHash: Compacting FUObjectHashTables data took   6.38ms
+[2021.03.15-10.34.02:863][415]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 903
+[2021.03.15-10.34.02:864][415]LogSavePackage: Moving '../../../../../../Users/SBSGAME/Desktop/Share/Unreal/Unreal1/ARPG/ARPG/Saved/Overview78A39F6A40E8BD62A19DF1A86E392ABA.tmp' to '../../../../../../Users/SBSGAME/Desktop/Share/Unreal/Unreal1/ARPG/ARPG/Content/Resources/PlayerCharacter/GKnight/Maps/Overview.umap'
+[2021.03.15-10.34.02:884][415]LogFileHelpers: Saving map 'Overview' took 0.383
+[2021.03.15-10.34.02:937][415]LogUObjectHash: Compacting FUObjectHashTables data took   5.98ms
+[2021.03.15-10.34.03:224][415]LogSavePackage: Moving '../../../../../../Users/SBSGAME/Desktop/Share/Unreal/Unreal1/ARPG/ARPG/Saved/Showcase76E9A15141884216063165A684B38BDA.tmp' to '../../../../../../Users/SBSGAME/Desktop/Share/Unreal/Unreal1/ARPG/ARPG/Content/Resources/PlayerCharacter/GKnight/Maps/Showcase.umap'
+[2021.03.15-10.34.03:239][415]LogFileHelpers: Saving map 'Showcase' took 0.350
+[2021.03.15-10.34.03:396][415]LogSavePackage: Moving '../../../../../../Users/SBSGAME/Desktop/Share/Unreal/Unreal1/ARPG/ARPG/Saved/MI_BearFurA0692A3D4689582912BB869024A014E3.tmp' to '../../../../../../Users/SBSGAME/Desktop/Share/Unreal/Unreal1/ARPG/ARPG/Content/Resources/PlayerCharacter/GKnight/Materials/MI_BearFur.uasset'
+[2021.03.15-10.34.03:471][415]LogSavePackage: Moving '../../../../../../Users/SBSGAME/Desktop/Share/Unreal/Unreal1/ARPG/ARPG/Saved/MI_EyeMaterialFB6117CA4DB5A59527ADCD8CC94AD657.tmp' to '../../../../../../Users/SBSGAME/Desktop/Share/Unreal/Unreal1/ARPG/ARPG/Content/Resources/PlayerCharacter/GKnight/Materials/MI_EyeMaterial.uasset'
+[2021.03.15-10.34.03:547][415]LogSavePackage: Moving '../../../../../../Users/SBSGAME/Desktop/Share/Unreal/Unreal1/ARPG/ARPG/Saved/MI_GKnightCape7FBEE79C493CBCA77FF8079431208348.tmp' to '../../../../../../Users/SBSGAME/Desktop/Share/Unreal/Unreal1/ARPG/ARPG/Content/Resources/PlayerCharacter/GKnight/Materials/MI_GKnightCape.uasset'
+[2021.03.15-10.34.03:626][415]LogSavePackage: Moving '../../../../../../Users/SBSGAME/Desktop/Share/Unreal/Unreal1/ARPG/ARPG/Saved/MI_GKnightSkirt21C10A044784EDF86C1802A5DC409663.tmp' to '../../../../../../Users/SBSGAME/Desktop/Share/Unreal/Unreal1/ARPG/ARPG/Content/Resources/PlayerCharacter/GKnight/Materials/MI_GKnightSkirt.uasset'
+[2021.03.15-10.34.03:729][415]LogSavePackage: Moving '../../../../../../Users/SBSGAME/Desktop/Share/Unreal/Unreal1/ARPG/ARPG/Saved/MI_GKnightSkirt_hideA7B8922B4F3AC50C3A9B3BACAA74B95D.tmp' to '../../../../../../Users/SBSGAME/Desktop/Share/Unreal/Unreal1/ARPG/ARPG/Content/Resources/PlayerCharacter/GKnight/Materials/MI_GKnightSkirt_hide.uasset'
+[2021.03.15-10.34.03:830][415]LogSavePackage: Moving '../../../../../../Users/SBSGAME/Desktop/Share/Unreal/Unreal1/ARPG/ARPG/Saved/MI_GKnight_Body398C6849410B6C4B731D328FAE563838.tmp' to '../../../../../../Users/SBSGAME/Desktop/Share/Unreal/Unreal1/ARPG/ARPG/Content/Resources/PlayerCharacter/GKnight/Materials/MI_GKnight_Body.uasset'
+[2021.03.15-10.34.03:904][415]LogSavePackage: Moving '../../../../../../Users/SBSGAME/Desktop/Share/Unreal/Unreal1/ARPG/ARPG/Saved/MI_GKnight_Glove6F68D3FC43D2F034B91A0BB9FD401ABA.tmp' to '../../../../../../Users/SBSGAME/Desktop/Share/Unreal/Unreal1/ARPG/ARPG/Content/Resources/PlayerCharacter/GKnight/Materials/MI_GKnight_Glove.uasset'
+[2021.03.15-10.34.03:989][415]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 893
+[2021.03.15-10.34.03:989][415]LogSavePackage: Moving '../../../../../../Users/SBSGAME/Desktop/Share/Unreal/Unreal1/ARPG/ARPG/Saved/MI_GKnight_HelmetE33FEDDE491E4B97E36C0D93FAA63684.tmp' to '../../../../../../Users/SBSGAME/Desktop/Share/Unreal/Unreal1/ARPG/ARPG/Content/Resources/PlayerCharacter/GKnight/Materials/MI_GKnight_Helmet.uasset'
+[2021.03.15-10.34.04:048][415]LogSavePackage: Moving '../../../../../../Users/SBSGAME/Desktop/Share/Unreal/Unreal1/ARPG/ARPG/Saved/MI_GKnight_Pants55C8B3BA4DA6C45F9F19459B8449FD77.tmp' to '../../../../../../Users/SBSGAME/Desktop/Share/Unreal/Unreal1/ARPG/ARPG/Content/Resources/PlayerCharacter/GKnight/Materials/MI_GKnight_Pants.uasset'
+[2021.03.15-10.34.04:136][415]LogSavePackage: Moving '../../../../../../Users/SBSGAME/Desktop/Share/Unreal/Unreal1/ARPG/ARPG/Saved/MI_headA9F5FABFD4CED20A799D380B4DF80D90E.tmp' to '../../../../../../Users/SBSGAME/Desktop/Share/Unreal/Unreal1/ARPG/ARPG/Content/Resources/PlayerCharacter/GKnight/Materials/MI_headA.uasset'
+[2021.03.15-10.34.04:209][415]LogSavePackage: Moving '../../../../../../Users/SBSGAME/Desktop/Share/Unreal/Unreal1/ARPG/ARPG/Saved/MI_headD0D67A6F8425334F8E140408A8E7A839B.tmp' to '../../../../../../Users/SBSGAME/Desktop/Share/Unreal/Unreal1/ARPG/ARPG/Content/Resources/PlayerCharacter/GKnight/Materials/MI_headD.uasset'
+[2021.03.15-10.34.04:276][415]LogSavePackage: Moving '../../../../../../Users/SBSGAME/Desktop/Share/Unreal/Unreal1/ARPG/ARPG/Saved/MI_HeadE1D9591F44098E22F4F851088E4E62496.tmp' to '../../../../../../Users/SBSGAME/Desktop/Share/Unreal/Unreal1/ARPG/ARPG/Content/Resources/PlayerCharacter/GKnight/Materials/MI_HeadE.uasset'

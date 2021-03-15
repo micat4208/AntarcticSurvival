@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\ARPG.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{2B9E339E-BC27-452C-AC63-9B06D2A6AC9B}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\ARPG.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\ARPGEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{3F249733-581D-4748-B53B-1E49FFDDFF6B}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Config\Android">
+      <UniqueIdentifier>{29DE6743-E957-46AE-953B-60F45BD4AA20}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\Android\AndroidEngine.ini">
+      <Filter>Config\Android</Filter>
+    </None>
+    <Filter Include="Config\IOS">
+      <UniqueIdentifier>{2855C597-92AF-426E-BDA1-47E234B6103C}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\IOS\IOSEngine.ini">
+      <Filter>Config\IOS</Filter>
+    </None>
+    <Filter Include="Config\Linux">
+      <UniqueIdentifier>{37EBB64B-09DD-460A-9E15-686CA984F8CD}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\Linux\LinuxEngine.ini">
+      <Filter>Config\Linux</Filter>
+    </None>
+    <Filter Include="Config\Mac">
+      <UniqueIdentifier>{EC8609D3-F90A-4280-A8C4-216AD32F61EF}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\Mac\MacEngine.ini">
+      <Filter>Config\Mac</Filter>
+    </None>
+    <Filter Include="Config\PS4">
+      <UniqueIdentifier>{08DCC817-332E-4CC8-BB15-66178CB40243}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\PS4\PS4Engine.ini">
+      <Filter>Config\PS4</Filter>
+    </None>
+    <Filter Include="Config\Switch">
+      <UniqueIdentifier>{73488732-0827-4111-BF3C-2D3E325DAF68}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\Switch\SwitchEngine.ini">
+      <Filter>Config\Switch</Filter>
+    </None>
+    <Filter Include="Config\Windows">
+      <UniqueIdentifier>{E5C3E164-213F-4A63-80EB-1D598B7EE810}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\Windows\WindowsEngine.ini">
+      <Filter>Config\Windows</Filter>
+    </None>
+    <Filter Include="Config\XboxOne">
+      <UniqueIdentifier>{53698E0B-AEE3-41E1-BC89-DF4BB7EC10DD}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\XboxOne\XboxOneEngine.ini">
+      <Filter>Config\XboxOne</Filter>
+    </None>
+    <Filter Include="Source\ARPG">
+      <UniqueIdentifier>{8AECE8F6-8F87-4493-87B4-E3AEFF8C6DCD}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\ARPG\ARPG.Build.cs">
+      <Filter>Source\ARPG</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\ARPG\ARPG.cpp">
+      <Filter>Source\ARPG</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ARPG\ARPG.h">
+      <Filter>Source\ARPG</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ARPG\ARPGGameModeBase.cpp">
+      <Filter>Source\ARPG</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ARPG\ARPGGameModeBase.h">
+      <Filter>Source\ARPG</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
